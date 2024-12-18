@@ -1,0 +1,29 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">pbmit-portfolio</custom-type>
+    <custom-type translate="1">pbmit-service</custom-type>
+    <custom-type translate="1">pbmit-team-member</custom-type>
+    <custom-type translate="1">pbmit-testimonial</custom-type>
+    <custom-type translate="1">pbmit-client</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">pbmit-portfolio-category</taxonomy>
+    <taxonomy translate="1">pbmit-service-category</taxonomy>
+    <taxonomy translate="1">pbmit-team-group</taxonomy>
+    <taxonomy translate="1">pbmit-testimonial-cat</taxonomy>
+    <taxonomy translate="1">pbmit-client-group</taxonomy>
+  </taxonomies>
+  <admin-texts>
+    <key name="theme_mods_xcare">
+      <key name="header-btn-text"/>
+      <key name="header-btn-url"/>
+      <key name="header-btn2-text"/>
+      <key name="header-btn2-url"/>
+      <key name="copyright-text"/>
+      <key name="portfolio-details">
+        <key name="line_title"/>
+        <key name="line_type"/>
+      </key>
+    </key>
+  </admin-texts>
+</wpml-config>

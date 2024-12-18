@@ -1,0 +1,223 @@
+.pbmit-team-style-3{
+	position: relative;
+}
+.pbmit-team-style-3 .pbminfotech-post-item{
+	padding: 33px 0 33px;
+	border-bottom: 1px solid rgba(var(--pbmit-xcare-secondary-color-rgb), .1);
+}
+.pbmit-text-color-white .pbmit-team-style-3 .pbminfotech-post-item{
+	border-color: rgba(var(--pbmit-xcare-white-color-rgb), .1);
+}
+.pbmit-element-team-style-3 .pbmit-element-posts-wrapper.row .pbmit-ele{
+	margin-bottom: 0;
+}
+.pbmit-team-style-3 .pbminfotech-box-content{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+}
+.pbmit-team-style-3 .pbmit-team-title-wapper{
+	align-items: center;
+}
+.pbmit-team-style-3 .pbmit-team-title-wapper::before{
+	counter-increment: pbmitbox3;
+	content: "0" counter(pbmitbox3, decimal-leading-zero);
+	font-size: 12px;
+	line-height: 12px;
+	display: inline-block;
+	padding: 10px 15px;
+	border: 1px solid;
+	color: #6e778c;
+	border-radius: 20px;
+	margin-right: 10px;
+}
+.rtl .pbmit-team-style-3 .pbmit-team-title-wapper::before{
+	margin: 0 0 0 10px;
+}
+.pbmit-team-style-3 .pbmit-team-title{
+	font-size: 60px;
+	line-height: 54px;
+	margin-bottom: 0;
+	transform-style: preserve-3d;
+	display: flex;
+	align-items: center;
+}
+.pbmit-text-color-white .pbmit-team-style-3 .pbmit-team-title-wapper::before,
+.pbmit-text-color-white .pbmit-team-style-3 .pbmit-team-title a,
+.pbmit-text-color-white .pbmit-team-style-3 .pbmit-team-title{
+	color: var(--pbmit-xcare-white-color);
+}
+.pbmit-team-style-3:hover .pbmit-team-title a{
+	color: var(--pbmit-xcare-global-color);
+}
+.pbmit-elementor-bg-color-globalcolor .pbmit-team-style-3:hover .pbmit-team-title a,
+.pbmit-elementor-bg-color-gradient .pbmit-team-style-3:hover .pbmit-team-title a{
+	color: var(--pbmit-xcare-secondary-color);
+}
+.pbmit-team-style-3 .pbminfotech-box-team-position{
+	font-size: 12px;
+	line-height: 26px;
+	letter-spacing: 1.2px;
+	font-weight: 500;
+	position: relative;
+	padding-left: 10px;
+	margin-left: 10px;
+	text-transform: uppercase;
+	transition: all .4s ease-in;
+	align-self: end;
+}
+.rtl .pbmit-team-style-3 .pbminfotech-box-team-position{
+	padding: 0 10px 0 0;
+	margin: 0 10px 0 0;
+}
+.pbmit-text-color-white .pbmit-team-style-3 .pbmit-team-title-wapper::before,
+.pbmit-text-color-white .pbmit-team-style-3 .pbminfotech-box-team-position{
+	color: rgba(var(--pbmit-xcare-white-color-rgb) ,.8);
+}
+.pbmit-team-style-3 .pbminfotech-box-team-position::before{
+	content: "/";
+	position: absolute;
+	left: 0;
+	top: 0;
+	transform: rotate(5deg);
+}
+.rtl .pbmit-team-style-3 .pbminfotech-box-team-position::before{
+	left: inherit;
+	right: 0;
+}
+.pbmit-team-style-3 .pbmit-featured-wrapper img{
+	position: absolute;
+	top: -177px;
+	left: 48%;
+	z-index: 1;
+	visibility: hidden;
+	opacity: 0;
+	transform-origin: top center;
+	transition: all .3s;
+	transform: translateY(30%);
+	border-radius: 30px;
+	transition: all .3s ease-in;
+}
+.rtl .pbmit-team-style-3 .pbmit-featured-wrapper img{
+	left: inherit;
+	right: 48%;
+}
+.pbmit-team-style-3:last-child .pbmit-featured-wrapper img{
+	top: -220px;
+}
+.pbmit-team-style-3:hover .pbmit-featured-wrapper img{
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+}
+.pbmit-team-style-3 .pbmit-team-btn{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	font-size: 13px;
+	line-height: 23px;
+	letter-spacing: 0.65px;
+	text-transform: uppercase;
+	color: var(--pbmit-xcare-blackish-color);
+	background-color: transparent;
+	transition: all .4s ease-in;
+}
+.pbmit-text-color-white .pbmit-team-style-3 .pbmit-team-btn{
+	color: var(--pbmit-xcare-white-color);
+}
+.pbmit-team-style-3 .pbmit-team-btn .pbmit-button-icon-wrapper::before,
+.pbmit-team-style-3 .pbmit-team-btn .pbmit-button-icon{
+	color: var(--pbmit-xcare-global-color);
+}
+.pbmit-elementor-bg-color-globalcolor .pbmit-team-style-3 .pbmit-team-btn .pbmit-button-icon-wrapper::before,
+.pbmit-elementor-bg-color-gradient .pbmit-team-style-3 .pbmit-team-btn .pbmit-button-icon-wrapper::before,
+.pbmit-elementor-bg-color-globalcolor .pbmit-team-style-3 .pbmit-team-btn .pbmit-button-icon,
+.pbmit-elementor-bg-color-gradient .pbmit-team-style-3 .pbmit-team-btn .pbmit-button-icon{
+	color: var(--pbmit-xcare-secondary-color);
+}
+.pbmit-team-style-3 .pbmit-team-btn .pbmit-button-icon-wrapper{
+	position: relative;
+	overflow: hidden;
+	display: inline-flex;
+	margin-right: 6px;
+	transform: rotate(45deg);
+}
+.rtl .pbmit-team-style-3 .pbmit-team-btn .pbmit-button-icon-wrapper{
+	margin: 0 0 0 6px;
+	transform: scaleX(-1) rotate(45deg);
+}
+.pbmit-team-style-3 .pbmit-team-btn .pbmit-button-icon-wrapper::before{
+	content: "\e8dd";
+	font-family: "pbminfotech-base-icons";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 1em;
+	height: auto;
+	transform: scale(0.26) translate(-55px, 50px);
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+.pbmit-team-style-3:hover .pbmit-team-btn .pbmit-button-icon-wrapper::before{
+	transform: scale(1) translate(-2px, 0px);
+}
+.pbmit-team-style-3 .pbmit-team-btn .pbmit-button-icon{
+	display: inline-block;
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+.pbmit-team-style-3:hover .pbmit-team-btn .pbmit-button-icon{
+	transform: scale(0.26) translate(45px, -50px);
+}
+/* Media Query */
+@media (max-width: 1200px){
+	.pbmit-team-style-3 .pbmit-team-title{
+		font-size: 40px;
+		line-height: 50px;
+	}
+}
+@media (min-width:767px) and (max-width:1024px){
+	.pbmit-team-style-3 .pbmit-featured-wrapper img{
+		width: 300px;
+	}
+}
+@media (max-width: 767px){
+	.pbmit-team-style-3 .pbminfotech-box-content{
+		display: block;
+	}
+	.pbmit-team-style-3 .pbmit-team-title-wapper{
+		flex-direction: column;
+		align-items: flex-start;
+		margin-bottom: 30px;
+	}
+	.pbmit-team-style-3 .pbminfotech-box-team-position{
+		margin-left: 0;
+		padding-left: 0;
+		align-self: flex-start;
+	}
+	.rtl .pbmit-team-style-3 .pbminfotech-box-team-position{
+		padding-right: 0;
+		margin-right: 0;
+	}
+	.pbmit-team-style-3 .pbmit-featured-wrapper img{
+		position: inherit;
+		visibility: visible;
+		opacity: 1;
+		transform: inherit;
+		width: 100%;
+	}
+	.pbmit-team-style-3 .pbmit-team-title{
+		order: 2;
+	}
+	.pbmit-team-style-3 .pbmit-team-btn{
+		margin-top: 20px;
+	}
+	.pbmit-team-style-3 .pbminfotech-box-team-position::before{
+		display: none;
+	}
+}
+@media (max-width: 575px){
+	.pbmit-team-style-3 .pbmit-team-title{
+		font-size: 24px;
+		line-height: 28px;
+	}
+}

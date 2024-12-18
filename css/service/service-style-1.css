@@ -1,0 +1,226 @@
+.pbmit-service-style-1 .pbminfotech-post-item .pbmit-box-content-wrap::before,
+.pbmit-service-style-1 .pbminfotech-post-item .pbmit-box-content-wrap,
+.pbmit-service-style-1 .pbmit-service-btn{
+	transition: all 0.5s ease-in-out;
+}
+.pbmit-service-style-1,
+.pbmit-service-style-1 .pbminfotech-box-content{
+	position: relative;
+}
+.pbmit-service-style-1 .pbminfotech-post-item .pbmit-box-content-wrap{
+	position: relative;
+	padding: 55px 40px 45px;
+	z-index: 1;
+	background-color: transparent!important;
+}
+.pbmit-service-style-1 .pbminfotech-post-item .pbmit-box-content-wrap::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-color: rgba(var(--pbmit-xcare-white-color-rgb),.6);
+	clip-path: polygon( 9.202% 0%,90.798% 0%,90.798% 0%,92.289% 0.11%,93.705% 0.429%,95.025% 0.939%,96.231% 1.622%,97.303% 2.463%,98.223% 3.442%,98.972% 4.543%,99.531% 5.748%,99.879% 7.041%,100% 8.403%,100% 69.468%,100% 69.468%,99.633% 73.178%,98.616% 75.937%,97.076% 77.918%,95.14% 79.293%,92.934% 80.235%,90.585% 80.917%,88.221% 81.511%,85.967% 82.19%,83.95% 83.128%,82.298% 84.496%,82.298% 84.496%,81.047% 86.306%,80.14% 88.282%,79.405% 90.341%,78.671% 92.399%,77.767% 94.371%,76.523% 96.173%,74.767% 97.721%,72.33% 98.931%,69.039% 99.719%,64.724% 100%,9.202% 100%,9.202% 100%,7.711% 99.89%,6.295% 99.571%,4.975% 99.061%,3.769% 98.378%,2.697% 97.538%,1.777% 96.558%,1.028% 95.457%,0.469% 94.252%,0.121% 92.959%,0% 91.597%,0% 8.403%,0% 8.403%,0.121% 7.041%,0.469% 5.748%,1.028% 4.543%,1.777% 3.442%,2.697% 2.463%,3.769% 1.622%,4.975% 0.939%,6.295% 0.429%,7.711% 0.11%,9.202% 0% );
+}
+.rtl .pbmit-service-style-1 .pbminfotech-post-item .pbmit-box-content-wrap::before,
+.rtl .pbmit-service-style-1 .pbmit-service-btn .pbmit-button-icon-wrapper{
+	-webkit-transform: scaleX(-1);
+	-ms-transform: scaleX(-1);
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+.pbmit-service-style-1:hover .pbminfotech-post-item .pbmit-box-content-wrap::before{
+	background-color: var(--pbmit-xcare-white-color);
+}
+.pbmit-service-style-1 .pbmit-service-title{
+	font-size: 26px;
+	line-height: 32px;
+	padding-right: 50px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: block;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	text-transform: capitalize;
+}
+.rtl .pbmit-service-style-1 .pbmit-service-title{
+	padding: 0 0 0 50px;
+}
+.pbmit-service-style-1 .pbmit-serv-cat{
+	font-size: 12px;
+	line-height: 32px;
+	text-transform: uppercase;
+	padding-left: 15px;
+	position: relative;
+	letter-spacing: 0.6px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+.rtl .pbmit-service-style-1 .pbmit-serv-cat{
+	padding: 0 15px 0 0;
+}
+.pbmit-service-style-1 .pbmit-serv-cat::before{
+	position: absolute;
+	content: "";
+	width: 8px;
+	height: 8px;
+	background-color: var(--pbmit-xcare-global-color);
+	border-radius: 50%;
+	left: 0;
+	top: 50%;
+	transform: translate(0 , -50%);
+}
+.rtl .pbmit-service-style-1 .pbmit-serv-cat::before{
+	right: 0;
+	left: inherit;
+}
+.pbmit-service-style-1 .pbmit-service-icon{
+	font-size: 98px;
+	line-height: 70px;
+	margin-top: 60px;
+	color: var(--pbmit-xcare-blackish-color);
+}
+.pbmit-service-style-1 .pbmit-service-icon img{
+	height: 98px;
+	width: 98px;
+}
+.pbmit-service-style-1 .pbmit-service-btn{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: var(--pbmit-xcare-white-color);
+	color: var(--pbmit-xcare-blackish-color);
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 2;
+}
+.rtl .pbmit-service-style-1 .pbmit-service-btn{
+	left: 0;
+	right: inherit;
+}
+.pbmit-service-style-1 .pbmit-service-btn .pbmit-button-icon-wrapper{
+	position: relative;
+	overflow: hidden;
+	display: inline-flex;
+}
+.pbmit-service-style-1 .pbmit-service-description{
+	color: #6e778c;
+}
+.pbmit-service-style-1 .pbmit-service-btn .pbmit-button-icon-wrapper::before{
+	content: "\e8dd";
+	font-family: "pbminfotech-base-icons";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 1em;
+	height: auto;
+	transform: scale(0.26) translate(-55px, 50px);
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+.pbmit-service-style-1:hover .pbmit-service-btn .pbmit-button-icon-wrapper::before{
+	transform: scale(1) translate(-2px, 0px);
+}
+.pbmit-service-style-1 .pbmit-service-btn .pbmit-button-icon{
+	display: inline-block;
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+.pbmit-service-style-1:hover .pbmit-service-btn .pbmit-button-icon{
+	transform: scale(0.26) translate(45px, -50px);
+}
+.pbmit-service-style-1:hover .pbminfotech-box-content .pbmit-service-btn{
+	color: var(--pbmit-xcare-white-color);
+	background-color: var(--pbmit-xcare-global-color);
+}
+.pbmit-elementor-bg-color-white .pbmit-service-style-1 .pbminfotech-post-item .pbmit-box-content-wrap{
+	background-color: rgba(var(--pbmit-xcare-light-bg-color-rgb),.6);
+}
+.pbmit-elementor-bg-color-white .pbmit-service-style-1:hover .pbminfotech-post-item .pbmit-box-content-wrap{
+	background-color: var(--pbmit-xcare-light-bg-color);
+}
+.pbmit-elementor-bg-color-white .pbmit-service-style-1 .pbmit-service-btn{
+	background-color: var(--pbmit-xcare-light-bg-color);
+}
+.pbmit-elementor-bg-color-secondary .pbmit-service-style-1:hover .pbmit-service-btn{
+	background-color: var(--pbmit-xcare-global-color);
+	color: var(--pbmit-xcare-white-color);
+}
+@media(max-width:1200px){
+	.pbmit-service-style-1 .pbminfotech-post-item .pbmit-box-content-wrap::before{
+		clip-path: none;
+	}
+	.pbmit-service-style-1 .pbminfotech-post-item .pbmit-box-content-wrap::before,
+	.pbmit-service-style-1 .pbminfotech-post-item .pbmit-box-content-wrap{
+		border-radius: 30px;
+	}
+	.pbmit-service-style-1 .pbmit-service-btn{
+		bottom: 10px;
+		right: 10px;
+		width: 40px;
+		height: 40px;
+		background-color: var(--pbmit-xcare-global-color);
+		color: var(--pbmit-xcare-white-color);
+	}
+	.rtl .pbmit-service-style-1 .pbmit-service-btn{
+		left: 10px;
+	}
+	.pbmit-service-style-1 .pbmit-service-btn i{
+		font-size: 10px;
+	}
+	.pbmit-service-style-1 .pbmit-service-title{
+		padding-right: 0;
+	}
+	.rtl .pbmit-service-style-1 .pbmit-service-title{
+		padding-left: 0;
+	}
+}
+@media (min-width:1024px) and (max-width:1200px){
+	.pbmit-service-style-1 .pbminfotech-post-item .pbmit-box-content-wrap{
+		padding: 45px 30px;
+	}
+	.pbmit-service-style-1 .pbmit-serv-cat{
+		font-size: 10px;
+		line-height: 26px;
+	}
+	.pbmit-service-style-1 .pbmit-service-title{
+		font-size: 22px;
+		line-height: 28px;
+		padding-right: 0;
+	}
+	.pbmit-service-style-1 .pbmit-service-icon{
+		font-size: 80px;
+		line-height: 60px;
+		margin-top: 40px;
+	}
+}
+/* For Related service in four column */
+.pbmit-service-style-1.col-lg-3 .pbmit-serv-cat{
+	font-size: 10px;
+	line-height: 28px;
+}
+.pbmit-service-style-1.col-lg-3 .pbmit-serv-cat::before{
+	width: 6px;
+	height: 6px;
+}
+.pbmit-service-style-1.col-lg-3 .pbmit-service-title{
+	font-size: 22px;
+	line-height: 28px;
+}
+.pbmit-service-style-1.col-lg-3 .pbminfotech-post-item .pbmit-box-content-wrap{
+	padding: 55px 30px 45px;
+}
+.pbmit-service-style-1.col-lg-3 .pbmit-service-icon{
+	font-size: 88px;
+	line-height: 60px;
+}

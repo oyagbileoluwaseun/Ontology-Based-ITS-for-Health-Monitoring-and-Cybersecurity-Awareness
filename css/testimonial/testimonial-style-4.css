@@ -1,0 +1,214 @@
+.pbmit-testimonial-style-4 .pbminfotech-post-item{
+	position: relative;
+}
+.pbmit-testimonial-style-4 .pbmit-box-content-wrap{
+	padding: 45px 55px 50px;
+	position: relative;
+	background-color: transparent;
+	z-index: 1;
+}
+.pbmit-testimonial-style-4 .pbmit-box-content-wrap::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: var(--pbmit-xcare-white-color);
+	clip-path: polygon( 4.267% 0.551%,4.267% 0.551%,3.666% 0.898%,3.099% 1.329%,2.57% 1.84%,2.082% 2.424%,1.638% 3.076%,1.243% 3.791%,0.899% 4.562%,0.61% 5.386%,0.379% 6.254%,0.21% 7.164%,0.21% 7.164%,0.163% 7.851%,0.124% 9.272%,0.092% 11.459%,0.066% 14.446%,0.047% 18.265%,0.035% 22.948%,0.028% 28.528%,0.027% 35.036%,0.032% 42.507%,0.042% 50.972%,0.103% 91.569%,0.103% 91.569%,0.109% 91.894%,0.124% 92.218%,0.15% 92.54%,0.186% 92.86%,0.231% 93.177%,0.287% 93.49%,0.352% 93.8%,0.427% 94.105%,0.511% 94.406%,0.605% 94.701%,0.694% 94.964%,0.694% 94.964%,0.9% 95.53%,1.132% 96.07%,1.388% 96.584%,1.667% 97.071%,1.968% 97.527%,2.29% 97.953%,2.631% 98.346%,2.991% 98.704%,3.369% 99.026%,3.763% 99.311%,3.763% 99.311%,3.763% 99.311%,3.955% 99.432%,4.15% 99.541%,4.348% 99.638%,4.549% 99.721%,4.752% 99.793%,4.957% 99.851%,5.163% 99.897%,5.371% 99.93%,5.579% 99.95%,5.789% 99.957%,40.989% 100.046%,40.989% 100.046%,48.04% 100.06%,54.332% 100.065%,59.877% 100.061%,64.685% 100.048%,68.769% 100.027%,72.14% 99.997%,74.809% 99.96%,76.787% 99.915%,78.087% 99.862%,78.719% 99.801%,78.719% 99.801%,79.254% 99.656%,79.794% 99.462%,80.332% 99.225%,80.86% 98.95%,81.371% 98.642%,81.857% 98.304%,82.311% 97.944%,82.726% 97.564%,83.093% 97.172%,83.407% 96.77%,83.407% 96.77%,83.698% 96.321%,83.967% 95.848%,84.22% 95.339%,84.46% 94.785%,84.692% 94.172%,84.919% 93.49%,85.146% 92.729%,85.376% 91.876%,85.615% 90.921%,85.866% 89.852%,85.866% 89.852%,86.346% 87.845%,86.797% 86.169%,87.248% 84.781%,87.727% 83.639%,88.262% 82.699%,88.884% 81.921%,89.62% 81.261%,90.499% 80.676%,91.551% 80.125%,92.803% 79.565%,92.803% 79.565%,94.156% 78.956%,95.325% 78.327%,96.325% 77.659%,97.17% 76.933%,97.876% 76.129%,98.458% 75.227%,98.931% 74.209%,99.31% 73.055%,99.609% 71.744%,99.844% 70.259%,99.844% 70.259%,99.891% 69.619%,99.931% 68.473%,99.963% 66.79%,99.988% 64.544%,100.007% 61.706%,100.02% 58.248%,100.027% 54.142%,100.027% 49.36%,100.023% 43.874%,100.013% 37.655%,99.954% 8.535%,99.954% 8.535%,99.948% 8.21%,99.932% 7.887%,99.906% 7.566%,99.87% 7.247%,99.825% 6.931%,99.769% 6.618%,99.704% 6.309%,99.629% 6.004%,99.545% 5.704%,99.451% 5.409%,99.361% 5.143%,99.361% 5.143%,99.155% 4.578%,98.923% 4.037%,98.667% 3.523%,98.388% 3.036%,98.087% 2.58%,97.765% 2.154%,97.424% 1.762%,97.064% 1.403%,96.686% 1.081%,96.292% 0.796%,96.292% 0.796%,96.292% 0.796%,96.099% 0.675%,95.903% 0.567%,95.705% 0.47%,95.504% 0.387%,95.3% 0.316%,95.095% 0.258%,94.889% 0.212%,94.681% 0.179%,94.471% 0.16%,94.262% 0.153%,50.343% 0.092%,50.343% 0.092%,38.691% 0.076%,29.232% 0.066%,21.73% 0.066%,15.951% 0.077%,11.658% 0.103%,8.617% 0.147%,6.593% 0.211%,5.35% 0.298%,4.653% 0.41%,4.267% 0.551% );
+	z-index: -1;
+}
+.rtl .pbmit-element-testimonial-style-4 .pbmit-ele-header-area::before,
+.rtl .pbmit-testimonial-style-4 .pbminfotech-post-item .pbmit-box-content-wrap::before{
+	-webkit-transform: scaleX(-1);
+	-ms-transform: scaleX(-1);
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+.pbmit-element-testimonial-style-4 .pbmit-ele-header-area{
+	position: relative;
+	padding: 80px 70px 0 50px;
+}
+.pbmit-element-testimonial-style-4 .pbmit-ele-header-area::before{
+	font-family: "pbminfotech-base-icons";
+	content: '\e805';
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 300px;
+	line-height: 300px;
+	display: inline-block;
+	background: rgba(var(--pbmit-xcare-blackish-color-rgb), 0.03);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	z-index: -1;
+}
+.rtl .pbmit-element-testimonial-style-4 .pbmit-ele-header-area::before{
+	right: 0;
+	left: inherit;
+}
+.pbmit-elementor-bg-color-blackish .pbmit-element-testimonial-style-4 .pbmit-ele-header-area::before,
+.pbmit-elementor-bg-color-secondary .pbmit-element-testimonial-style-4 .pbmit-ele-header-area::before{
+	background: rgba(var(--pbmit-xcare-white-color-rgb), 0.03);
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+.pbmit-testimonial-style-4 .pbminfotech-box-title{
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 0;
+	color: var(--pbmit-xcare-global-color);
+}
+.pbmit-testimonial-style-4 .pbmit-featured-wrapper img{
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+}
+.pbmit-testimonial-style-4 .pbminfotech-box-img{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.rtl .pbmit-testimonial-style-4 .pbminfotech-box-img{
+	left: 0;
+	right: inherit;
+}
+.pbmit-testimonial-style-4 .pbminfotech-testimonial-text{
+	font-size: 18px;
+	line-height: 30px;
+	margin: 0;
+	padding: 20px 0 30px;
+	border: 0;
+}
+.pbmit-testimonial-style-4 .pbminfotech-testimonial-detail,
+.pbmit-testimonial-style-4 .pbminfotech-box-title{
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.pbmit-testimonial-style-4 .pbminfotech-box-star-ratings{
+	font-size: 18px;
+	line-height: 18px;
+	color: rgba(var(--pbmit-xcare-global-color-rgb), 0.5);
+}
+.pbmit-testimonial-style-4 .pbminfotech-box-star-ratings .pbmit-active{
+	color: #ffae00;
+}
+.pbmit-testimonial-style-4 .pbminfotech-testimonial-detail{
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 0.6px;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+/* BG Color Set */
+.pbmit-elementor-bg-color-white .pbmit-testimonial-style-4 .pbmit-box-content-wrap::before{
+	background-color: var(--pbmit-xcare-light-bg-color);
+}
+/* Col Set */
+.pbmit-element-column-four .pbmit-testimonial-style-4 .pbmit-box-content-wrap::before,
+.pbmit-element-column-three .pbmit-testimonial-style-4 .pbmit-box-content-wrap::before{
+	clip-path: unset;
+	border-radius: 30px;
+}
+.pbmit-element-column-four .pbmit-testimonial-style-4 .pbmit-box-content-wrap,
+.pbmit-element-column-three .pbmit-testimonial-style-4 .pbmit-box-content-wrap{
+	padding: 30px;
+}
+.pbmit-element-column-four .pbmit-testimonial-style-4 .pbminfotech-box-img,
+.pbmit-element-column-three .pbmit-testimonial-style-4 .pbminfotech-box-img{
+	right: 10px;
+	bottom: 10px;
+}
+.pbmit-element-column-four .pbmit-testimonial-style-4 .pbmit-featured-wrapper img,
+.pbmit-element-column-three .pbmit-testimonial-style-4 .pbmit-featured-wrapper img{
+	width: 50px;
+	height: 50px;
+}
+/* arrow */
+.pbmit-element-testimonial-style-4[data-nav="true"] .pbmit-element-posts-wrapper{
+	padding-bottom: 120px;
+}
+.pbmit-element-testimonial-style-4 .swiper-button-prev,
+.pbmit-element-testimonial-style-4 .swiper-button-next{
+	bottom: 0;
+	top: auto;
+	right: 0;
+}
+.rtl .pbmit-element-testimonial-style-4 .swiper-button-prev,
+.rtl .pbmit-element-testimonial-style-4 .swiper-button-next{
+	left: 0;
+	right: inherit;
+}
+.pbmit-element-testimonial-style-4 .swiper-button-prev{
+	right: 70px;
+	left: auto;
+}
+.rtl .pbmit-element-testimonial-style-4 .swiper-button-prev{
+	left: 70px;
+	right: auto;
+}
+@media(max-width: 1366px){
+	.pbmit-element-testimonial-style-4 .pbmit-ele-header-area{
+		padding: 80px 0 0 30px;
+	}
+	.rtl .pbmit-element-testimonial-style-4 .pbmit-ele-header-area{
+		padding: 80px 30px 0 0;
+	}
+	.pbmit-testimonial-style-4 .pbmit-box-content-wrap{
+		padding: 40px 30px;
+	}
+	.pbmit-testimonial-style-4 .pbmit-featured-wrapper img{
+		width: 50px;
+		height: 50px;
+		top: -10px;
+		position: relative;
+	}
+	.pbmit-element-testimonial-style-4 .pbmit-ele-header-area::before{
+		left: 30px;
+		top: 0;
+		font-size: 180px;
+		line-height: 180px;
+	}
+	.rtl .pbmit-element-testimonial-style-4 .pbmit-ele-header-area::before{
+		right: 30px;
+	}
+}
+@media(max-width: 1200px){
+	.pbmit-testimonial-style-4 .pbmit-box-content-wrap::before{
+		clip-path: unset;
+		border-radius: 30px;
+	}
+	.pbmit-testimonial-style-4 .pbmit-featured-wrapper img{
+		top: auto;
+		right: 10px;
+		bottom: 10px;
+	}
+	.rtl .pbmit-testimonial-style-4 .pbmit-featured-wrapper img{
+		left: 10px;
+		right: inherit;
+	}
+}
+@media(max-width: 1024px){
+	.pbmit-element-testimonial-style-4 .pbmit-ele-header-area{
+		padding: 0 !important;
+	}
+	.pbmit-element-testimonial-style-4 .pbmit-ele-header-area::before{
+		font-size: 100px;
+		line-height: 100px;
+	}
+}
+@media(max-width: 767px){
+	.pbmit-element-testimonial-style-4 .pbmit-ele-header-area::before{
+		content: unset;
+		position: unset;
+	}
+	.pbmit-testimonial-style-4 .pbmit-box-content-wrap{
+		border-radius: 30px;
+		padding: 30px;
+	}
+}

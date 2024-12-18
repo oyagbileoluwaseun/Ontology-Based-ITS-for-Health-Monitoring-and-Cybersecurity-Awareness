@@ -1,0 +1,72 @@
+.pbmit-ihbox-style-39 .pbmit-element-heading{
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 0;
+	color: var(--pbmit-xcare-global-color);
+}
+.pbmit-ihbox-style-39 .pbmit-element-title{
+	font-size: 60px;
+	line-height: 64px;
+	margin-bottom: 0;
+	font-weight: 600;
+}
+.pbmit-ihbox-style-39 .pbmit-element-subtitle{
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 0;
+}
+.pbmit-ihbox-style-39 .pbmit-ihbox-icon-wrapper,
+.pbmit-ihbox-style-39 .pbmit-ihbox-svg-wrapper{
+	font-size: 25px;
+	line-height: 25px;
+	display: inline-block;
+	padding: 0 15px;
+}
+.pbmit-ihbox-style-39 .pbmit-title-wrap{
+	margin-right: 20px;
+}
+.rtl .pbmit-ihbox-style-39 .pbmit-title-wrap {
+	margin-left: 20px;
+	margin-right: inherit;
+}
+.pbmit-ihbox-style-39 .pbmit-ihbox-icon-type-image img{
+	width: auto;
+	height: 30px;
+}
+.pbmit-ihbox-style-39 .pbmit-ihbox-svg-wrapper{
+	background-color: var(--pbmit-xcare-global-color);
+	border-radius: 30px;
+}
+.pbmit-ihbox-style-39 .pbmit-ihbox-svg-wrapper svg{
+	fill: var(--pbmit-xcare-white-color);
+	width: 75px;
+	height: 15px;
+	top: -2px;
+}
+.pbmit-ihbox-style-39 .pbmit-heading-desc{
+	letter-spacing: -0.5px;
+	color: var(--pbmit-xcare-global-color);
+}
+/* Col Set */
+.pbmit-element-column-three .pbmit-ihbox-style-39 .pbmit-element-title,
+.pbmit-element-column-four .pbmit-ihbox-style-39 .pbmit-element-title {
+	font-size: 30px;
+	line-height: 36px;
+}
+.pbmit-element-column-three .pbmit-ihbox-style-39 .pbmit-title-wrap,
+.pbmit-element-column-four .pbmit-ihbox-style-39 .pbmit-title-wrap{
+	margin-right: 0;
+}
+/* For Bg Color */
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-39 .pbmit-element-title,
+.pbmit-elementor-bg-color-secondary .pbmit-ihbox-style-39 .pbmit-element-title{
+	color: var(--pbmit-xcare-global-color);
+}
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-39 .pbmit-ihbox-svg-wrapper,
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-39 .pbmit-ihbox-svg-wrapper{
+	background-color: var(--pbmit-xcare-white-color);
+}
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-39 .pbmit-ihbox-svg-wrapper svg,
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-39 .pbmit-ihbox-svg-wrapper svg{
+	fill: var(--pbmit-xcare-blackish-color);
+}

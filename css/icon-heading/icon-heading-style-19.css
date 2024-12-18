@@ -1,0 +1,192 @@
+.pbmit-ihbox-style-19,
+.pbmit-ihbox-style-19 .pbmit-icon-type-icon,
+.pbmit-ihbox-style-19 .pbmit-ihbox-contents{
+	-webkit-transition: all .25s ease-in-out;
+	-ms-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+}
+.pbmit-ihbox-style-19 .pbmit-ihbox-box{
+	display: flex;
+	align-items: center;
+}
+.pbmit-ihbox-style-19 .pbmit-ihbox-icon{
+	margin-right: 30px;
+}
+.rtl .pbmit-ihbox-style-19 .pbmit-ihbox-icon{
+	margin: 0 0 0 30px;
+}
+.pbmit-ihbox-style-19 .pbmit-icon-type-icon,
+.pbmit-ihbox-style-19 .pbmit-ihbox-svg-wrapper{
+	font-size: 60px;
+	line-height: 60px;
+	color: var(--pbmit-xcare-global-color);
+}
+.pbmit-ihbox-style-19 .pbmit-ihbox-svg-wrapper svg{
+	width: 70px;
+	height: 70px;
+	fill: var(--pbmit-xcare-blackish-color);
+}
+.pbmit-ihbox-style-19 .pbmit-element-title{
+	font-size: 22px;
+	line-height: 28px;
+	margin-bottom: 0;
+	font-weight: 600;
+}
+.pbmit-ihbox-style-19 .pbmit-element-heading{
+	font-size: 15px;
+	line-height: 20px;
+	margin-bottom: 5px;
+}
+.pbmit-ihbox-style-19 .pbmit-element-heading,
+.pbmit-ihbox-style-19 .pbmit-element-title{
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.pbmit-ihbox-style-19 .pbmit-ihbox-icon-type-image{
+	background: transparent;
+}
+.pbmit-ihbox-style-19 .pbmit-ihbox-icon-type-image img{
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+}
+.pbmit-ihbox-style-19 .pbmit-ihbox-icon-type-text{
+	font-size: 90px;
+	line-height: 90px;
+	color: var(--pbmit-xcare-global-color);
+}
+.pbmit-ihbox-style-19 .pbmit-ihbox-btn a{
+	display: inline-block;
+	padding: 18px 35px;
+	background-color: transparent;
+	border-radius: 30px;
+	color: var(--pbmit-xcare-white-color);
+	background-color: var(--pbmit-xcare-global-color);
+	transition: all .4s ease-in;
+}
+.pbmit-ihbox-style-19 .pbmit-ihbox-btn a:hover{
+	color: var(--pbmit-xcare-white-color);
+	background-color: var(--pbmit-xcare-blackish-color);
+}
+.pbmit-ihbox-style-19 .pbmit-ihbox-btn .pbmit-button-icon-wrapper{
+	position: relative;
+	overflow: hidden;
+	display: inline-flex;
+	margin-left: 6px;
+}
+.pbmit-ihbox-style-19 .pbmit-ihbox-btn .pbmit-button-icon-wrapper::before{
+	content: "\e8dd";
+	font-family: "pbminfotech-base-icons";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 1em;
+	height: auto;
+	transform: scale(0.26) translate(-52px, 50px);
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+.pbmit-ihbox-style-19 .pbmit-ihbox-btn:hover .pbmit-button-icon-wrapper::before{
+	transform: scale(1) translate(-2px, 0px);
+}
+.pbmit-ihbox-style-19 .pbmit-ihbox-btn .pbmit-button-icon{
+	display: inline-block;
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+.pbmit-ihbox-style-19 .pbmit-ihbox-btn:hover .pbmit-button-icon{
+	transform: scale(0.26) translate(45px, -50px);
+}
+/* == miconheading == */
+.pbmit-element-column-four .pbmit-miconheading-style-19 .pbmit-ihbox-style-19 .pbmit-ihbox-contents,
+.pbmit-element-column-three .pbmit-miconheading-style-19 .pbmit-ihbox-style-19 .pbmit-ihbox-contents{
+	margin-bottom: 30px;
+}
+.pbmit-element-column-four .pbmit-miconheading-style-19 .pbmit-ihbox-style-19 .pbmit-ihbox-icon,
+.pbmit-element-column-three .pbmit-miconheading-style-19 .pbmit-ihbox-style-19 .pbmit-ihbox-icon{
+	margin-right: 0;
+}
+.pbmit-element-column-four .pbmit-miconheading-style-19 .pbmit-ihbox-style-19 .pbmit-ihbox-box,
+.pbmit-element-column-three .pbmit-miconheading-style-19 .pbmit-ihbox-style-19 .pbmit-ihbox-box{
+	display: block;
+	text-align: center;
+}
+.pbmit-element-column-four .pbmit-miconheading-style-19 .pbmit-ihbox-style-19 .pbmit-ihbox-icon-type-image,
+.pbmit-element-column-four .pbmit-miconheading-style-19 .pbmit-ihbox-style-19 .pbmit-ihbox-icon-type-text,
+.pbmit-element-column-four .pbmit-miconheading-style-19 .pbmit-ihbox-style-19 .pbmit-icon-wrapper,
+.pbmit-element-column-four .pbmit-miconheading-style-19 .pbmit-ihbox-style-19 .pbmit-ihbox-svg-wrapper,
+.pbmit-element-column-three .pbmit-miconheading-style-19 .pbmit-ihbox-style-19 .pbmit-ihbox-icon-type-image,
+.pbmit-element-column-three .pbmit-miconheading-style-19 .pbmit-ihbox-style-19 .pbmit-ihbox-icon-type-text,
+.pbmit-element-column-three .pbmit-miconheading-style-19 .pbmit-ihbox-style-19 .pbmit-icon-wrapper,
+.pbmit-element-column-three .pbmit-miconheading-style-19 .pbmit-ihbox-style-19 .pbmit-ihbox-svg-wrapper{
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+/* == For bg color == */
+.pbmit-elementor-bg-color-secondary .pbmit-ihbox-style-19 .pbmit-element-title,
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-19 .pbmit-element-title{
+	color: var(--pbmit-xcare-white-color);
+}
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-19 .pbmit-element-heading,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-19 .pbmit-element-heading{
+	color: var(--pbmit-xcare-blackish-color);
+}
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-19 .pbmit-ihbox-btn a,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-19 .pbmit-ihbox-btn a{
+	background-color: var(--pbmit-xcare-blackish-color);
+}
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-19 .pbmit-ihbox-btn a:hover,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-19 .pbmit-ihbox-btn a:hover,
+.pbmit-elementor-bg-color-secondary .pbmit-ihbox-style-19 .pbmit-ihbox-btn a:hover,
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-19 .pbmit-ihbox-btn a:hover{
+	color: var(--pbmit-xcare-blackish-color);
+	background-color: var(--pbmit-xcare-white-color);
+}
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-19 .pbmit-icon-type-icon,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-19 .pbmit-icon-type-icon{
+	color: var(--pbmit-xcare-blackish-color);
+}
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-19 .pbmit-ihbox-svg-wrapper svg,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-19 .pbmit-ihbox-svg-wrapper svg{
+	fill: var(--pbmit-xcare-blackish-color);
+}
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-19 .pbmit-ihbox-icon-type-text,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-19 .pbmit-ihbox-icon-type-text{
+	color: var(--pbmit-xcare-blackish-color);
+}
+.pbmit-elementor-bg-color-secondary .pbmit-ihbox-style-19 .pbmit-icon-type-icon{
+	color: var(--pbmit-xcare-white-color);
+}
+@media(max-width: 1200px){
+	.pbmit-ihbox-style-19 .pbmit-ihbox-icon{
+		margin-right: 20px;
+	}
+	.pbmit-ihbox-style-19 .pbmit-icon-type-icon,
+	.pbmit-ihbox-style-19 .pbmit-ihbox-svg-wrapper{
+		font-size: 50px;
+		line-height: 50px;
+	}
+	.pbmit-ihbox-style-19 .pbmit-element-title{
+		font-size: 18px;
+		line-height: 28px;
+	}	
+}
+@media(min-width: 768px) and (max-width: 992px){
+	.pbmit-ihbox-style-19 .pbmit-ihbox-box{
+		display: block;
+	}
+	.pbmit-ihbox-style-19 .pbmit-icon-type-icon,
+	.pbmit-ihbox-style-19 .pbmit-ihbox-svg-wrapper{
+		font-size: 40px;
+		line-height: 50px;
+	}
+	ul.pbmit-timelist-list .pbmit-timelist-li-value{
+		float: none !important;
+		display: block;
+	}
+	.pbmit-colunm-clip-path .pbmit-btn-style-outline .elementor-button.elementor-size-sm{
+		padding: 14px 20px;
+		font-size: 10px;
+	}
+}

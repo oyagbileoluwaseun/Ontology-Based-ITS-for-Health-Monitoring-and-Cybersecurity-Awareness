@@ -1,0 +1,291 @@
+.pbmit-element-service-style-5 .pbmit-title-data-hover .pbmit-title-inner,
+.pbmit-element-service-style-5 .pbmit-title-data-hover .pbmit-service-btn a,
+.pbmit-element-service-style-5 .pbmit-title-data-hover .pbmit-service-btn{
+	transition: all 0.5s ease-in-out;
+}
+.pbmit-element-service-style-5 .pbmit-hover-inner{
+	padding: 0 85px 0 85px;
+	margin: 0;
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 35px 30px;
+}
+.pbmit-element-service-style-5 .pbmit-hover-inner li{
+	position: relative;
+}
+.pbmit-element-service-style-5 .pbmit-featured-wrapper{
+	clip-path: polygon( 5.329% 0%,94.671% 0%,94.671% 0%,95.535% 0.073%,96.355% 0.286%,97.119% 0.625%,97.818% 1.081%,98.439% 1.64%,98.971% 2.292%,99.405% 3.026%,99.728% 3.829%,99.93% 4.69%,100% 5.597%,100% 79.664%,100% 79.664%,99.787% 82.136%,99.199% 83.973%,98.307% 85.292%,97.186% 86.208%,95.909% 86.836%,94.549% 87.29%,93.179% 87.685%,91.874% 88.138%,90.706% 88.762%,89.75% 89.674%,89.75% 89.674%,89.026% 90.879%,88.5% 92.195%,88.074% 93.567%,87.649% 94.937%,87.126% 96.251%,86.406% 97.451%,85.389% 98.482%,83.978% 99.288%,82.072% 99.813%,79.574% 100%,5.329% 100%,5.329% 100%,4.465% 99.927%,3.645% 99.714%,2.881% 99.375%,2.182% 98.919%,1.561% 98.36%,1.029% 97.708%,0.595% 96.974%,0.272% 96.171%,0.07% 95.31%,0% 94.403%,0% 5.597%,0% 5.597%,0.07% 4.69%,0.272% 3.829%,0.595% 3.026%,1.029% 2.292%,1.561% 1.64%,2.182% 1.081%,2.881% 0.625%,3.645% 0.286%,4.465% 0.073%,5.329% 0% );
+}
+.rtl .pbmit-element-service-style-5 .pbmit-service-btn .pbmit-button-icon-wrapper,
+.rtl .pbmit-element-service-style-5 .pbmit-btn .pbmit-button-icon-wrapper,
+.rtl .pbmit-element-service-style-5 .pbmit-featured-wrapper{
+	-webkit-transform: scaleX(-1);
+	-ms-transform: scaleX(-1);
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+.pbmit-element-service-style-5 .pbmit-featured-wrapper img{
+	border-radius: 30px;
+	width: 100%;
+}
+.pbmit-element-service-style-5 .swiper-hover-slide-images{
+	flex: 0 0 auto;
+	width: 44.666667%;
+	padding-right: 0;
+}
+.pbmit-element-service-style-5 .swiper-hover-slide-nav{
+	flex: 0 0 auto;
+	width: 55.333333%;
+}
+.pbmit-element-service-style-5 .pbmit-title-data-hover{
+	margin-bottom: 0;
+	font-weight: 400;
+}
+.pbmit-element-service-style-5 .pbminfotech-box-number{
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 16px;
+	line-height: 16px;
+}
+.rtl .pbmit-element-service-style-5 .pbminfotech-box-number{
+	left: inherit;
+	right: 0;
+}
+.pbmit-element-service-style-5 .pbmit-title-inner{
+	font-size: 28px;
+	line-height: 28px;
+	position: relative;
+	padding: 0 10px 0 30px;
+}
+.rtl .pbmit-element-service-style-5 .pbmit-title-inner{
+	padding: 0 30px 0 10px;
+}
+.pbmit-element-service-style-5 .pbmit-hover-inner li:hover .pbmit-title-inner{
+	color: var(--pbmit-xcare-global-color);
+}
+.pbmit-element-service-style-5 .pbmit-service-btn a{
+	font-size: 14px;
+	opacity: 0;
+}
+.pbmit-element-service-style-5 .swiper-hover-slide-nav .pbmit-hover-inner li.pbmit-active .pbmit-service-btn a{
+	opacity: 1;
+}
+.pbmit-element-service-style-5 .pbmit-service-btn .pbmit-button-icon-wrapper{
+	position: relative;
+	overflow: hidden;
+	display: inline-flex;
+}
+.pbmit-element-service-style-5 .pbmit-hover-inner .pbmit-service-btn .pbmit-button-icon-wrapper::before{
+	content: "\e8dd";
+	font-family: "pbminfotech-base-icons";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 1em;
+	height: auto;
+	transform: scale(0.26) translate(-55px, 50px);
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+.pbmit-element-service-style-5 .pbmit-hover-inner li:hover .pbmit-service-btn .pbmit-button-icon-wrapper::before{
+	color: var(--pbmit-xcare-global-color);
+	transform: scale(1) translate(-4px, 0px);
+}
+.pbmit-element-service-style-5 .pbmit-hover-inner .pbmit-service-btn .pbmit-button-icon{
+	display: inline-block;
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+.pbmit-element-service-style-5 .pbmit-hover-inner li:hover .pbmit-service-btn .pbmit-button-icon{
+	transform: scale(0.26) translate(45px, -50px);
+}
+.pbmit-elementor-bg-color-globalcolor .pbmit-element-service-style-5 .pbmit-hover-inner li:hover .pbmit-title-inner{
+	color: var(--pbmit-xcare-white-color);
+}
+.pbmit-elementor-bg-color-secondary .pbmit-element-service-style-5 .pbmit-service-btn a,
+.pbmit-elementor-bg-color-secondary .pbmit-element-service-style-5 .pbmit-hover-inner li:hover .pbmit-title-inner,
+.pbmit-elementor-bg-color-gradient .pbmit-element-service-style-5 .pbmit-hover-inner li:hover .pbmit-title-inner,
+.pbmit-elementor-bg-color-gradient .pbmit-element-service-style-5 .pbmit-hover-inner li:hover .pbmit-service-btn .pbmit-button-icon-wrapper::before,
+.pbmit-elementor-bg-color-globalcolor .pbmit-element-service-style-5 .pbmit-hover-inner li:hover .pbmit-service-btn .pbmit-button-icon-wrapper::before,
+.pbmit-elementor-bg-color-secondary .pbmit-element-service-style-5 .pbmit-hover-inner li:hover .pbmit-service-btn .pbmit-button-icon-wrapper::before,
+.pbmit-elementor-bg-color-globalcolor .pbmit-element-service-style-5 .pbmit-service-btn a,
+.pbmit-elementor-bg-color-gradient .pbmit-element-service-style-5 .pbmit-service-btn a,
+.pbmit-elementor-bg-color-blackish .pbmit-element-service-style-5 .pbmit-service-btn a,
+.pbmit-elementor-bg-color-globalcolor .pbmit-element-service-style-5 .pbminfotech-box-number,
+.pbmit-elementor-bg-color-gradient .pbmit-element-service-style-5 .pbminfotech-box-number,
+.pbmit-elementor-bg-color-blackish .pbmit-element-service-style-5 .pbminfotech-box-number,
+.pbmit-elementor-bg-color-secondary .pbmit-element-service-style-5 .pbminfotech-box-number,
+.pbmit-elementor-bg-color-globalcolor .pbmit-element-service-style-5 .pbmit-title-inner,
+.pbmit-elementor-bg-color-gradient .pbmit-element-service-style-5 .pbmit-title-inner,
+.pbmit-elementor-bg-color-secondary .pbmit-element-service-style-5 .pbmit-title-inner,
+.pbmit-elementor-bg-color-blackish .pbmit-element-service-style-5 .pbmit-title-inner{
+	color: var(--pbmit-xcare-white-color);
+}
+.pbmit-elementor-bg-color-blackish .pbmit-element-service-style-5 .pbmit-title-inner{
+	color: var(--pbmit-xcare-white-color);
+}
+.pbmit-element-service-style-5 .pbmit-service-icon{
+	position: absolute;
+	bottom: 0;
+	right: 1px;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 55px;
+	height: 55px;
+	line-height: 65px;
+	text-align: center;
+	border-radius: 100%;
+	color: var(--pbmit-xcare-blackish-color);
+	background-color: var(--pbmit-xcare-white-color);
+}
+.rtl .pbmit-element-service-style-5 .pbmit-service-icon{
+	left: 1px;
+	right: inherit;
+}
+.pbmit-elementor-bg-color-white .pbmit-element-service-style-5 .pbmit-service-icon{
+	color: var(--pbmit-xcare-white-color);
+	background-color: var(--pbmit-xcare-blackish-color);
+}
+.pbmit-element-service-style-5 .pbmit-service-icon svg{
+	fill: var(--pbmit-xcare-blackish-color);
+}
+.pbmit-element-service-style-5 .pbmit-service-icon img{
+	width: 55px;
+	height: 55px;
+	border-radius: 100%;
+}
+.pbmit-element-service-style-5 .swiper-hover-slide-images .swiper-slide.swiper-slide-active{
+	opacity: 1 !important;
+}
+.pbmit-element-service-style-5 .pbmit-hover-image .swiper-slide .pbmit-service-icon{
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+}
+.pbmit-element-service-style-5 .pbmit-hover-image .swiper-slide.swiper-slide-active .pbmit-service-icon{
+	opacity: 1;
+}
+/* Heading subheading css */
+.pbmit-element-service-style-5 .pbmit-ele-header-area{
+	position: relative;
+}
+.pbmit-elementor-bg-color-gradient .pbmit-element-service-style-5 .pbmit-btn a:hover,
+.pbmit-elementor-bg-color-globalcolor .pbmit-element-service-style-5 .pbmit-btn a:hover{
+	color: var(--pbmit-xcare-white-color);
+	background-color: var(--pbmit-xcare-blackish-color);
+}
+.pbmit-element-service-style-5 .pbmit-btn a,
+.pbmit-element-service-style-5 .pbmit-btn {
+	display: inline-block;
+}
+.pbmit-element-service-style-5 .pbmit-btn a{
+	position: relative;
+	top: -8px;
+	padding: 15px 33px;
+	border-radius: 30px;
+	background-color: var(--pbmit-xcare-white-color);
+}
+.pbmit-elementor-bg-color-white .pbmit-element-service-style-5 .pbmit-btn a{
+	color: var(--pbmit-xcare-white-color);
+	background-color: var(--pbmit-xcare-blackish-color);
+}
+.pbmit-elementor-bg-color-white .pbmit-element-service-style-5 .pbmit-btn a:hover,
+.pbmit-element-service-style-5 .pbmit-btn a:hover{
+	background-color: var(--pbmit-xcare-global-color);
+	color: var(--pbmit-xcare-white-color);
+}
+.pbmit-element-service-style-5 .pbmit-btn .pbmit-button-icon-wrapper{
+	position: relative;
+	overflow: hidden;
+	display: inline-flex;
+	margin-left: 6px;
+}
+.rtl .pbmit-element-service-style-5 .pbmit-btn .pbmit-button-icon-wrapper{
+	margin: 0 6px 0 0;
+}
+.pbmit-element-service-style-5 .pbmit-btn .pbmit-button-icon-wrapper::before{
+	content: "\e8dd";
+	font-family: "pbminfotech-base-icons";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 1em;
+	height: auto;
+	transform: scale(0.26) translate(-58px, 50px);
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+.pbmit-element-service-style-5 .pbmit-btn:hover .pbmit-button-icon-wrapper::before{
+	transform: scale(1) translate(-2px, 0px);
+}
+.pbmit-element-service-style-5 .pbmit-btn .pbmit-button-icon{
+	display: inline-block;
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+.pbmit-element-service-style-5 .pbmit-btn:hover .pbmit-button-icon{
+	transform: scale(0.26) translate(45px, -50px);
+}
+@media screen and (min-width: 1201px){
+	.pbmit-element-service-style-5 .swiper-hover-slide-nav .pbmit-featured-img-wrapper{
+		display: none;
+	}
+}
+@media(max-width: 1200px){
+	.pbmit-element-service-style-5 .pbmit-hover-image{
+		display: none;
+	}
+	.pbmit-element-service-style-5 .pbmit-main-hover-slider{
+		display: block !important;
+		padding: 0 14px;
+	}
+	.pbmit-element-service-style-5 .swiper-hover-slide-images,
+	.pbmit-element-service-style-5 .swiper-hover-slide-nav{
+		width: 100%;
+	}
+	.pbmit-element-service-style-5 .pbmit-title-data-hover{
+		display: block !important;
+	}
+	.pbmit-element-service-style-5 .pbmit-hover-inner{
+		padding: 0;
+	}
+	.pbmit-element-service-style-5 .pbmit-featured-img-wrapper{
+		padding-bottom: 30px;
+	}
+	.pbmit-element-service-style-5 .pbmit-btn{
+		position: inherit;
+		margin-top: 20px;
+	}
+	.pbmit-element-service-style-5 .pbminfotech-box-number{
+		position: unset;
+		font-size: 20px;
+		line-height: 20px;
+	}
+	.pbmit-element-service-style-5 .pbmit-title-inner{
+		padding-left: 20px;
+		font-size: 24px;
+		line-height: 28px;
+	}
+}
+@media (max-width: 767px){
+	.pbmit-element-service-style-5 .pbmit-title-inner{
+		padding-left: 15px;
+		font-size: 22px;
+		line-height: 28px;
+	}
+	.rtl .pbmit-element-service-style-5 .pbmit-title-inner{
+		padding-right: 15px;
+	}
+	.pbmit-element-service-style-5 .pbmit-hover-inner{
+		display: block;
+		-ms-grid-columns: unset;
+		grid-template-columns: unset;
+		grid-gap:0;
+	}
+	.pbmit-element-service-style-5 .pbmit-featured-img-wrapper{
+		padding-bottom: 20px;
+	}
+	.pbmit-element-service-style-5 .pbmit-text-content{
+		padding-bottom: 30px;
+	}
+}

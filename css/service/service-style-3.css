@@ -1,0 +1,283 @@
+.pbmit-element-service-style-3 .pbmit-title-data-hover .pbmit-title-inner,
+.pbmit-element-service-style-3 .pbmit-serv-cat,
+.pbmit-element-service-style-3 .pbmit-title-data-hover .pbmit-service-btn a,
+.pbmit-element-service-style-3 .pbmit-title-data-hover .pbmit-service-btn{
+	transition: all 0.5s ease-in-out;	
+}
+.pbmit-element-service-style-3 .pbmit-hover-inner{
+	list-style-type: none;
+	padding-left: 55px;
+}
+.pbmit-element-service-style-3 .pbmit-hover-inner li{
+	border-bottom: 1px solid rgba(var(--pbmit-xcare-blackish-color-rgb), .3);
+	padding: 22px 0 28px;
+	position: relative;
+}
+.pbmit-element-service-style-3 .pbmit-featured-wrapper {
+	clip-path: polygon( 5.329% 0%,94.671% 0%,94.671% 0%,95.535% 0.073%,96.355% 0.286%,97.119% 0.625%,97.818% 1.081%,98.439% 1.64%,98.971% 2.292%,99.405% 3.026%,99.728% 3.829%,99.93% 4.69%,100% 5.597%,100% 79.664%,100% 79.664%,99.787% 82.136%,99.199% 83.973%,98.307% 85.292%,97.186% 86.208%,95.909% 86.836%,94.549% 87.29%,93.179% 87.685%,91.874% 88.138%,90.706% 88.762%,89.75% 89.674%,89.75% 89.674%,89.026% 90.879%,88.5% 92.195%,88.074% 93.567%,87.649% 94.937%,87.126% 96.251%,86.406% 97.451%,85.389% 98.482%,83.978% 99.288%,82.072% 99.813%,79.574% 100%,5.329% 100%,5.329% 100%,4.465% 99.927%,3.645% 99.714%,2.881% 99.375%,2.182% 98.919%,1.561% 98.36%,1.029% 97.708%,0.595% 96.974%,0.272% 96.171%,0.07% 95.31%,0% 94.403%,0% 5.597%,0% 5.597%,0.07% 4.69%,0.272% 3.829%,0.595% 3.026%,1.029% 2.292%,1.561% 1.64%,2.182% 1.081%,2.881% 0.625%,3.645% 0.286%,4.465% 0.073%,5.329% 0% ); 
+}
+.pbmit-element-service-style-3 .pbmit-featured-wrapper img{
+	border-radius: 30px;
+	width: 100%;
+}
+.pbmit-element-service-style-3 .swiper-hover-slide-images {
+	flex: 0 0 auto;
+	width: 44.666667%;
+	padding-right: 0;
+}
+.pbmit-element-service-style-3 .swiper-hover-slide-nav {
+	flex: 0 0 auto;
+	width: 55.333333%;
+}
+.pbmit-element-service-style-3 .pbmit-title-data-hover{
+	justify-content: space-between;
+	margin-bottom: 0;
+}
+.pbmit-element-service-style-3 .pbmit-serv-cat{
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-left: 12px;
+	position: relative;
+	display: block;
+	margin-bottom: 10px;
+	letter-spacing: 0.6px;
+}
+.pbmit-element-service-style-3 .pbmit-hover-inner li:hover .pbmit-serv-cat{
+	transform: translate(20px,0);
+}
+.pbmit-element-service-style-3 .pbmit-serv-cat::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	transform: translate(0 , -50%);
+	background-color: var(--pbmit-xcare-secondary-color);
+}
+.pbmit-element-service-style-3 .pbmit-title-inner{
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: 400;
+}
+.pbmit-element-service-style-3 .pbmit-hover-inner li:hover .pbmit-title-inner{
+	color: var(--pbmit-xcare-global-color);
+}
+.pbmit-element-service-style-3 .pbmit-service-btn a{
+	font-size: 20px;
+	background-color: var(--pbmit-xcare-white-color);
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
+}
+.pbmit-element-service-style-3 .pbmit-hover-inner li:hover .pbmit-service-btn a{
+	color: var(--pbmit-xcare-white-color);
+	background-color: var(--pbmit-xcare-secondary-color);
+}
+.pbmit-element-service-style-3 .pbmit-service-btn .pbmit-button-icon-wrapper{
+	position: relative;
+	overflow: hidden;
+	display: inline-flex;
+}
+.pbmit-element-service-style-3 .pbmit-hover-inner .pbmit-service-btn .pbmit-button-icon-wrapper::before{
+	content: "\e8dd";
+	font-family: "pbminfotech-base-icons";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 1em;
+	height: auto;
+	transform: scale(0.26) translate(-55px, 50px);
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out ;
+}
+.pbmit-element-service-style-3 .pbmit-hover-inner li:hover .pbmit-service-btn .pbmit-button-icon-wrapper::before{
+	transform: scale(1) translate(-4px, 0px);
+}
+.pbmit-element-service-style-3 .pbmit-hover-inner .pbmit-service-btn .pbmit-button-icon{
+	display: inline-block;
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+.pbmit-element-service-style-3 .pbmit-hover-inner li:hover .pbmit-service-btn .pbmit-button-icon{
+	transform: scale(0.26) translate(45px, -50px);
+}
+.pbmit-elementor-bg-color-white .pbmit-element-service-style-3 .pbmit-service-btn a{
+	background-color: var(--pbmit-xcare-blackish-color);
+	color: var(--pbmit-xcare-white-color);
+}
+.pbmit-elementor-bg-color-secondary .pbmit-element-service-style-3 li:hover .pbmit-service-btn a{
+	color: var(--pbmit-xcare-white-color);
+	background-color: var(--pbmit-xcare-global-color);
+}
+.pbmit-elementor-bg-color-secondary .pbmit-element-service-style-3 .pbmit-title-inner,
+.pbmit-elementor-bg-color-globalcolor .pbmit-element-service-style-3 .pbmit-title-inner,
+.pbmit-elementor-bg-color-gradient .pbmit-element-service-style-3 .pbmit-title-inner,
+.pbmit-elementor-bg-color-blackish .pbmit-element-service-style-3 .pbmit-title-inner{
+	color: var(--pbmit-xcare-white-color);
+}
+.pbmit-elementor-bg-color-globalcolor .pbmit-element-service-style-3 .pbmit-serv-cat a,
+.pbmit-elementor-bg-color-gradient .pbmit-element-service-style-3 .pbmit-serv-cat a{
+	color: var(--pbmit-xcare-white-color);
+}
+.pbmit-elementor-bg-color-secondary .pbmit-element-service-style-3 .pbmit-serv-cat::before{
+	background-color: var(--pbmit-xcare-global-color);
+}
+.pbmit-elementor-bg-color-secondary .pbmit-element-service-style-3 .pbmit-title-inner,
+.pbmit-elementor-bg-color-blackish .pbmit-element-service-style-3 .pbmit-title-inner{
+	color: var(--pbmit-xcare-white-color);
+}
+.pbmit-elementor-bg-color-globalcolor .pbmit-element-service-style-3 .pbmit-hover-inner li:hover .pbmit-title-inner,
+.pbmit-elementor-bg-color-gradient .pbmit-element-service-style-3 .pbmit-hover-inner li:hover .pbmit-title-inner {
+	color: var(--pbmit-xcare-secondary-color);
+}
+.pbmit-elementor-bg-color-secondary .pbmit-element-service-style-3 .pbmit-serv-cat a,
+.pbmit-elementor-bg-color-blackish .pbmit-element-service-style-3 .pbmit-serv-cat a{
+	color: var(--pbmit-xcare-white-color);
+}
+.pbmit-elementor-bg-color-secondary .pbmit-element-service-style-3 .pbmit-hover-inner li:hover .pbmit-title-inner,
+.pbmit-elementor-bg-color-blackish .pbmit-element-service-style-3 .pbmit-hover-inner li:hover .pbmit-title-inner {
+	color: var(--pbmit-xcare-global-color);
+}
+.pbmit-elementor-bg-color-secondary .pbmit-element-service-style-3 .pbmit-hover-inner li:hover .pbmit-service-btn a,
+.pbmit-elementor-bg-color-blackish .pbmit-element-service-style-3 .pbmit-hover-inner li:hover .pbmit-service-btn a {
+	background-color: var(--pbmit-xcare-global-color);
+}
+.pbmit-elementor-bg-color-secondary .pbmit-element-service-style-3 .pbmit-hover-inner li,
+.pbmit-elementor-bg-color-globalcolor .pbmit-element-service-style-3 .pbmit-hover-inner li,
+.pbmit-elementor-bg-color-gradient .pbmit-element-service-style-3 .pbmit-hover-inner li,
+.pbmit-elementor-bg-color-blackish .pbmit-element-service-style-3 .pbmit-hover-inner li{
+	border-color: rgba(var(--pbmit-xcare-white-color-rgb), .3);
+}
+.pbmit-element-service-style-3 .pbmit-service-icon i{
+	font-size: 30px;
+	display: none;
+}
+.pbmit-element-service-style-3 .pbmit-service-icon svg,
+.pbmit-element-service-style-3 .pbmit-service-icon img{
+	width: 30px;
+	height: 30px;
+	display: none;
+}
+/* Heading subheading css */
+.pbmit-element-service-style-3 .pbmit-ele-header-area{
+	position: relative;
+}
+.pbmit-element-service-style-3 .pbmit-btn{
+	margin-top: 30px;
+	display: inline-block;
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+}
+.pbmit-ele-header-align-right .pbmit-element-service-style-3 .pbmit-btn {
+	left: 0;
+	right: inherit;
+}
+.pbmit-elementor-bg-color-secondary .pbmit-element-service-style-3 .pbmit-btn a,
+.pbmit-elementor-bg-color-blackish .pbmit-element-service-style-3 .pbmit-btn a,
+.pbmit-elementor-bg-color-gradient .pbmit-element-service-style-3 .pbmit-btn a,
+.pbmit-elementor-bg-color-globalcolor .pbmit-element-service-style-3 .pbmit-btn a{
+	border: 1px solid var(--pbmit-xcare-white-color);
+	color: var(--pbmit-xcare-white-color);
+}
+.pbmit-elementor-bg-color-secondary .pbmit-element-service-style-3 .pbmit-btn a:hover,
+.pbmit-elementor-bg-color-blackish .pbmit-element-service-style-3 .pbmit-btn a:hover,
+.pbmit-elementor-bg-color-gradient .pbmit-element-service-style-3 .pbmit-btn a:hover,
+.pbmit-elementor-bg-color-globalcolor .pbmit-element-service-style-3 .pbmit-btn a:hover {
+	color: var(--pbmit-xcare-blackish-color);
+	background-color: var(--pbmit-xcare-white-color);
+	border-color: var(--pbmit-xcare-white-color);
+}
+.pbmit-element-service-style-3 .pbmit-btn a{
+	font-size: 13px;
+	line-height: 23px;
+	letter-spacing: 0.65px;
+	text-transform: uppercase;
+	padding: 21px 35px;
+	border: 1px solid var(--pbmit-xcare-blackish-color);
+	background-color: transparent;
+	border-radius: 30px;
+	transition: all .4s ease-in;
+}
+.pbmit-element-service-style-3 .pbmit-btn a:hover{
+	color: var(--pbmit-xcare-white-color);
+	background-color: var(--pbmit-xcare-blackish-color);
+}
+.pbmit-element-service-style-3 .pbmit-btn .pbmit-button-icon-wrapper{
+	position: relative;
+	overflow: hidden;
+	display: inline-flex;
+	margin-left: 6px;
+}
+.pbmit-element-service-style-3 .pbmit-btn .pbmit-button-icon-wrapper::before{
+	content: "\e8dd";
+	font-family: "pbminfotech-base-icons";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 1em;
+	height: auto;
+	transform: scale(0.26) translate(-58px, 50px);
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out ;
+}
+.pbmit-element-service-style-3 .pbmit-btn:hover .pbmit-button-icon-wrapper::before{
+	transform: scale(1) translate(-2px, 0px);
+}
+.pbmit-element-service-style-3 .pbmit-btn .pbmit-button-icon{
+	display: inline-block;
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+.pbmit-element-service-style-3 .pbmit-btn:hover .pbmit-button-icon{
+	transform: scale(0.26) translate(45px, -50px);
+}
+.pbmit-elementor-bg-color-blackish .pbmit-element-service-style-3 .pbmit-serv-cat::before {
+	background-color: var(--pbmit-xcare-global-color);
+}
+@media screen and (min-width: 1201px){
+	.pbmit-element-service-style-3 .swiper-hover-slide-nav .pbmit-featured-img-wrapper{
+		display: none;
+	}
+}
+@media (max-width: 1200px){
+	.pbmit-element-service-style-3 .pbmit-hover-image{
+		display: none;
+	}
+	.pbmit-element-service-style-3 .pbmit-main-hover-slider{
+		display: block !important;
+		padding: 0 14px;
+	}
+	.pbmit-element-service-style-3 .swiper-hover-slide-images,
+	.pbmit-element-service-style-3 .swiper-hover-slide-nav{
+		width: 100%;
+	}
+	.pbmit-element-service-style-3 .pbmit-title-data-hover{
+		display: block !important;
+	}
+	.pbmit-element-service-style-3 .pbmit-hover-inner{
+		padding: 0;
+	}
+	.pbmit-element-service-style-3 .pbmit-text-content,
+	.pbmit-element-service-style-3 .pbmit-featured-img-wrapper{
+		padding-bottom: 30px;
+	}
+	.pbmit-element-service-style-3 .pbmit-btn{
+		position: inherit;
+		margin-top: 20px;
+		margin-bottom: 12px;
+	}
+}
+@media (max-width: 767px){
+	.pbmit-element-service-style-3 .pbmit-title-inner {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.pbmit-element-service-style-3 .pbmit-serv-cat {
+		margin-bottom: 6px;
+	}
+}

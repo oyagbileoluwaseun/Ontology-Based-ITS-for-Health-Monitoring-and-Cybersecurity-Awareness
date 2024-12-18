@@ -1,0 +1,29 @@
+/* Admin Widget view */
+
+.wp-block{
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif !important;
+	font-size: 15px;
+	color: #666666;
+}
+.wp-block a{
+	color: #101010;
+	text-decoration: none;
+}
+.editor-styles-wrapper .wp-block-search__label,
+.editor-styles-wrapper h2.wp-block-heading{
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif !important;
+	font-size: 22px !important;
+	line-height: 32px !important;
+	font-weight: 500 !important;
+	color: #101010 !important;
+}
+ol.wp-block-latest-comments li,
+ul.wp-block-categories__list li,
+ul.wp-block-archives li,
+ul.wp-block li{
+	margin: 8px 0;
+}
+.wp-block-search .wp-block-search__button{
+	background-color: #101010 !important;
+	color: #fff !important;
+}

@@ -1,0 +1,167 @@
+.pbmit-header-style-4{
+	position: relative;
+}
+.pbmit-header-style-4 .pbmit-header-overlay{
+	position: absolute;
+	z-index: 9;
+	width: 100%;
+	top: 40px;
+}
+.pbmit-header-style-4 .pbmit-slider-area{
+	border-radius: 0px 0px 30px 30px;
+	overflow: hidden;
+}
+.pbmit-header-style-4 .pbmit-title-bar-wrapper .pbmit-title-bar-content{
+	padding: 100px 0 0 !important;
+}
+.pbmit-header-style-4 .pbmit-search-cart-box>*:nth-child(2)::after{
+	background-color: rgba(var(--pbmit-xcare-white-color-rgb), 0.15);
+}
+@media (min-width: 1201px){
+	.pbmit-max-mega-menu-override #page #site-navigation .pbmit-header-style-4 .mega-menu-wrap > ul > li:not(:last-child).mega-menu-item::before,
+	body:not(.mega-menu-pbminfotech-top) .pbmit-header-style-4 .pbmit-navbar div>ul>li:not(:last-child)::before{
+		background-color: var(--pbmit-xcare-global-color);
+	}
+	.pbmit-max-mega-menu-override #page .pbmit-header-style-4 #site-navigation .mega-menu-wrap > ul > li.mega-menu-item:first-child,
+	body:not(.mega-menu-pbminfotech-top) .pbmit-header-style-4 .pbmit-navbar div>ul>li:first-child{
+		margin-left: 38px;
+	}
+	.rtl.pbmit-max-mega-menu-override #page .pbmit-header-style-4 #site-navigation .mega-menu-wrap > ul > li.mega-menu-item:first-child,
+	body.rtl:not(.mega-menu-pbminfotech-top) .pbmit-header-style-4 .pbmit-navbar div>ul>li:first-child{
+		margin: 0 38px 0 28px;
+	}
+	.pbmit-max-mega-menu-override #page .pbmit-header-style-4 #site-navigation .mega-menu-wrap > ul > li.mega-menu-item:last-child,
+	body:not(.mega-menu-pbminfotech-top) .pbmit-header-style-4 .pbmit-navbar div>ul>li:last-child{
+		margin-right: 38px;
+	}
+	.rtl.pbmit-max-mega-menu-override #page .pbmit-header-style-4 #site-navigation .mega-menu-wrap > ul > li.mega-menu-item:last-child,
+	body.rtl:not(.mega-menu-pbminfotech-top) .pbmit-header-style-4 .pbmit-navbar div>ul>li:last-child{
+		margin: 0 28px 0 38px;
+	}
+	.pbmit-header-style-4 .navigation-top{
+		background-color: var(--pbmit-xcare-white-color);
+		border-radius: 30px;
+	}
+	.pbmit-header-style-4 .pbmit-header-button2 a{
+		font-size: 13px;
+		line-height: 36px;
+		letter-spacing: 0.65px;
+		text-transform: uppercase;
+		padding: 21px 35px;
+		color: var(--pbmit-xcare-white-color);
+		background-color: var(--pbmit-xcare-blackish-color);
+		border-radius: 30px;
+		transition: all .4s ease-in;
+	}
+	.pbmit-header-style-4 .pbmit-header-button2 a:hover{
+		background-color: var(--pbmit-xcare-global-color);
+	}
+	.pbmit-header-style-4 .pbmit-header-button2 .pbmit-button-icon-wrapper{
+		position: relative;
+		overflow: hidden;
+		display: inline-flex;
+		margin-left: 6px;
+	}
+	.rtl .pbmit-header-style-4 .pbmit-header-button2 .pbmit-button-icon-wrapper{
+		margin: 0 6px 0 0;
+		-webkit-transform: scaleX(-1);
+		-ms-transform: scaleX(-1);
+		-moz-transform: scaleX(-1);
+		-o-transform: scaleX(-1);
+		transform: scaleX(-1);
+	}
+	.pbmit-header-style-4 .pbmit-header-button2 .pbmit-button-icon-wrapper::before{
+		content: "\e8dd";
+		font-family: "pbminfotech-base-icons";
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 1em;
+		height: auto;
+		transform: scale(0.26) translate(-52px, 50px);
+		transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out ;
+	}
+	.pbmit-header-style-4 .pbmit-header-button2 a:hover .pbmit-button-icon-wrapper::before{
+		transform: scale(1) translate(-2px, 0px);
+	}
+	.pbmit-header-style-4 .pbmit-header-button2 .pbmit-button-icon{
+		display: inline-block;
+		transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+	}
+	.pbmit-header-style-4 .pbmit-header-button2 a:hover .pbmit-button-icon{
+		transform: scale(0.26) translate(45px, -50px);
+	}
+	.home .pbmit-header-style-4 .pbmit-slider-social li{
+		display: block;
+	}
+	.pbmit-header-style-4 .pbmit-slider-social{
+		position: absolute;
+		top: 50%;
+		left: 38px;
+		transform: translate(0, -50%);
+		z-index: 2;
+	}
+	.rtl .pbmit-header-style-4 .pbmit-slider-social{
+		right: 38px;
+		left: inherit;
+	}
+	.pbmit-header-style-4 .pbmit-slider-social li{
+		display: none;
+		padding: 9px 0 !important;
+	}
+	.pbmit-header-style-4 .pbmit-slider-social li a{
+		display: block;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 50%;
+		text-align: center;
+		background-color: rgba(var(--pbmit-xcare-blackish-color-rgb), .2);
+		color: var(--pbmit-xcare-white-color);
+		transition: all 0.3s ease;
+	}	
+	.pbmit-header-style-4 .pbmit-slider-social li:hover a{
+		background-color: var(--pbmit-xcare-white-color);
+		color: var(--pbmit-xcare-global-color);
+	}
+	.pbmit-header-style-4 .pbmit-header-button2{
+		margin-left: 16px;
+	}
+	.rtl .pbmit-header-style-4 .pbmit-header-button2{
+		margin: 0 16px 0 0;
+	}
+	.pbmit-parent-header-style-4 #content .entry-content .elementor-section:first-child > .elementor-container > .elementor-column.pbmit-bg-color-yes > .elementor-widget-wrap{
+		margin: 0;
+	}
+}
+@media (max-width: 1600px){
+	.pbmit-header-style-4 .pbmit-slider-social{
+		left: 5px;
+	}
+	.rtl .pbmit-header-style-4 .pbmit-slider-social{
+		right: 5px;
+		left: inherit;
+	}
+}
+@media (max-width: 1500px){
+	.pbmit-header-style-4 .pbmit-slider-social{
+		display: none;
+	}
+}
+@media (max-width: 1366px){
+	.pbmit-header-style-4 .pbmit-sticky-header .container,
+	.pbmit-header-style-4 .pbmit-pre-header-wrapper .container,
+	.pbmit-header-style-4 .pbmit-header-wrapper .container{
+		max-width: none;
+		width: auto;
+		padding: 0 30px;
+	}
+	.pbmit-header-style-4 .pbmit-button-box{
+		display: none;
+	}
+}
+@media (max-width: 1200px){
+	.pbmit-header-style-4 .pbmit-header-overlay{
+		top: 20px;
+	}
+}

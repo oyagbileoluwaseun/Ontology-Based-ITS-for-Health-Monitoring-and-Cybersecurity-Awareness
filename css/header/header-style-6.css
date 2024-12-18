@@ -1,0 +1,166 @@
+.pbmit-header-style-6{
+	position: relative;
+}
+.pbmit-header-style-6 .pbmit-header-button a{
+	font-weight: 600 !important;
+	display: flex;
+	align-items: center;
+}
+.pbmit-header-style-6 .pbmit-header-button-text-2{
+	display: none;
+}
+.pbmit-header-style-6 .pbmit-sticky-header .pbmit-search-cart-box .pbmit-header-search-btn a,
+.pbmit-header-style-6 .pbmit-sticky-header .pbmit-search-cart-box .pbmit-cart-wrapper a,
+.pbmit-header-style-6 .pbmit-search-cart-box .pbmit-header-search-btn a,
+.pbmit-header-style-6 .pbmit-search-cart-box .pbmit-cart-wrapper a{
+	color: var(--pbmit-xcare-white-color);
+	background-color: var(--pbmit-xcare-global-color);
+}
+.pbmit-header-style-6 .pbmit-sticky-header .pbmit-search-cart-box .pbmit-header-search-btn a:hover,
+.pbmit-header-style-6 .pbmit-sticky-header .pbmit-search-cart-box .pbmit-cart-wrapper a:hover,
+.pbmit-header-style-6 .pbmit-search-cart-box .pbmit-header-search-btn a:hover,
+.pbmit-header-style-6 .pbmit-search-cart-box .pbmit-cart-wrapper a:hover{
+	color: var(--pbmit-xcare-white-color);
+	background-color: var(--pbmit-xcare-blackish-bg-color);
+}
+.pbmit-header-style-6 .pbmit-search-cart-box .pbmit-cart-link:hover .pbmit-cart-count{
+	color: var(--pbmit-xcare-white-color);
+	background-color: var(--pbmit-xcare-global-color);
+}
+@media (min-width: 1201px){
+	.pbmit-header-style-6 .pbmit-sticky-header .container,
+	.pbmit-header-style-6 .pbmit-pre-header-wrapper .container,
+	.pbmit-header-style-6 .pbmit-header-wrapper .container{
+		max-width: none;
+		width: auto;
+		padding: 0 30px;
+	}
+	.pbmit-header-style-6 .pbmit-main-header-area{
+		border-radius: 30px;
+	}
+	.pbmit-header-style-6 .pbmit-header-overlay{
+		padding: 20px 20px 20px;
+	}
+	.pbmit-header-style-6 .pbmit-slider-area{
+		margin: 0 20px;
+		max-width: 100%;
+		overflow: hidden;
+		border-radius: 30px;
+	}
+	.pbmit-max-mega-menu-override #page #site-navigation .pbmit-header-style-6 .mega-menu-wrap > ul > li:not(:last-child).mega-menu-item::before,
+	body:not(.mega-menu-pbminfotech-top) .pbmit-header-style-6 .pbmit-navbar div>ul>li:not(:last-child):before{
+		background-color: var(--pbmit-xcare-global-color);
+	}
+	.pbmit-header-style-6 .pbmit-menuarea{
+		padding-left: 30px;
+	}
+	.rtl .pbmit-header-style-6 .pbmit-menuarea{
+		padding: 0 30px 0 0;
+	}
+	.pbmit-header-style-6 .pbmit-header-button a::before{
+		content: "\e890";
+		font-family: "pbminfotech-base-icons";
+		display: inline-block;
+		font-size: 20px;
+		color: var(--pbmit-xcare-blackish-color);
+		margin-right: 15px;
+	}
+	.rtl .pbmit-header-style-6 .pbmit-header-button a::before{
+		margin: 0 0 0 15px;
+	}
+	.pbmit-header-style-6 .pbmit-button-box-second{
+		padding: 0 0 0 30px;
+	}
+	.rtl .pbmit-header-style-6 .pbmit-button-box-second{
+		padding: 0 30px 0 0;
+	}
+	.pbmit-header-style-6 .pbmit-header-button2 a{
+		font-size: 13px;
+		line-height: 36px;
+		letter-spacing: 0.65px;
+		text-transform: uppercase;
+		padding: 21px 35px;
+		color: var(--pbmit-xcare-white-color);
+		background-color: var(--pbmit-xcare-blackish-bg-color);
+		border-radius: 30px;
+		transition: all .4s ease-in;
+	}
+	.pbmit-header-style-6 .pbmit-header-button2 a:hover{
+		background-color: var(--pbmit-xcare-global-color);
+	}
+	.pbmit-header-style-6 .pbmit-header-button2 .pbmit-button-icon-wrapper{
+		position: relative;
+		overflow: hidden;
+		display: inline-flex;
+		margin-left: 6px;
+	}
+	.rtl .pbmit-header-style-6 .pbmit-header-button2 .pbmit-button-icon-wrapper{
+		margin: 0 6px 0 0;
+		-webkit-transform: scaleX(-1);
+		-ms-transform: scaleX(-1);
+		-moz-transform: scaleX(-1);
+		-o-transform: scaleX(-1);
+		transform: scaleX(-1);
+	}
+	.pbmit-header-style-6 .pbmit-header-button2 .pbmit-button-icon-wrapper::before{
+		content: "\e8dd";
+		font-family: "pbminfotech-base-icons";
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 1em;
+		height: auto;
+		transform: scale(0.26) translate(-52px, 50px);
+		transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+	}
+	.pbmit-header-style-6 .pbmit-header-button2 a:hover .pbmit-button-icon-wrapper::before{
+		transform: scale(1) translate(-2px, 0px);
+	}
+	.pbmit-header-style-6 .pbmit-header-button2 .pbmit-button-icon{
+		display: inline-block;
+		transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+	}
+	.pbmit-header-style-6 .pbmit-header-button2 a:hover .pbmit-button-icon{
+		transform: scale(0.26) translate(45px, -50px);
+	}
+	.pbmit-header-style-6 .pbmit-sticky-header .pbmit-button-box-second{
+		background-color: transparent;
+	}
+	.pbmit-header-style-6 .pbmit-title-bar-wrapper{
+		margin: 0 20px;
+		max-width: 100%;
+		overflow: hidden;
+		border-radius: 30px;
+	}
+	.pbmit-parent-header-style-6 #content .entry-content .elementor-section:first-child > .elementor-container > .elementor-column.pbmit-bg-color-yes > .elementor-widget-wrap{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+@media(min-width: 1600px){
+	.pbmit-max-mega-menu-override #page .pbmit-header-style-6 #site-navigation .mega-menu-wrap>ul>li.mega-menu-item.mega-menu-megamenu>ul.mega-sub-menu{
+		margin-left: 12%;
+	}
+	.rtl.pbmit-max-mega-menu-override #page .pbmit-header-style-6 #site-navigation .mega-menu-wrap>ul>li.mega-menu-item.mega-menu-megamenu>ul.mega-sub-menu {
+		margin-right: 12%;
+		margin-left: auto;
+	}
+}
+@media (max-width: 1600px){
+	.pbmit-header-style-6 .pbmit-button-box{
+		display: none;
+	}
+}
+@media (max-width: 1450px){
+	.pbmit-header-style-6 .pbmit-button-box-second{
+		display: none;
+	}
+}
+@media (max-width: 1200px){
+	.pbmit-header-style-6 .pbmit-main-header-area .container{
+		max-width: none;
+	}
+	.pbmit-header-style-6 .nav-menu-toggle{
+		color: var(--pbmit-xcare-blackish-color);
+	}
+}

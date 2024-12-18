@@ -1,0 +1,117 @@
+/* --------------------------------------
+ * Global color
+ * ---------------------------------------*/
+ .pbmit-color-globalcolor,
+ .pbmit-globalcolor,
+ .globalcolor{
+	 color: var(--pbmit-xcare-global-color) ;
+ }
+
+ /* --------------------------------------
+  * Global Color
+  * ---------------------------------------*/
+ /*=== Global BG Color ===*/
+ .site-header .pbmit-sticky-on.pbmit-sticky-bg-color-globalcolor,
+ .pbmit-bg-color-globalcolor,
+ .pbmit-bg-color-globalcolor{
+	 background-color: var(--pbmit-xcare-global-color);
+ }
+
+ /*=== Global Text Color ===*/
+ .pbmit-color-secondarycolor a:hover,
+ .pbmit-color-blackish a:hover,
+ .pbmit-color-white a:hover,
+ .pbmit-color-globalcolor a,
+
+ .pbmit-globalcolor,
+ .pbmit-skincolor{
+	color: var(--pbmit-xcare-global-color);
+ }
+
+ /* --------------------------------------
+  * Secondary Color
+  * ---------------------------------------*/ 
+ /*=== Secondary BG Color ===*/
+ .pbmit-bg-color-secondarycolor,
+ .pbmit-bg-color-secondary{
+	 background-color: var(--pbmit-xcare-secondary-color);   
+ }
+
+ .pbmit-color-secondarycolor a,
+ .pbmit-color-secondarycolor {
+	color: var(--pbmit-xcare-secondary-color);
+ }
+
+ /* --------------------------------------
+  *  Gradient Color
+  * ---------------------------------------*/
+
+ /*=== Gradient BG Color ===*/
+
+ .pbmit-bg-color-gradient{
+	 background-image: -ms-linear-gradient(right, var(--pbmit-xcare-gradient-color-first) 0%, var(--pbmit-xcare-gradient-color-last) 100%);
+	 background-image: linear-gradient(to right, var(--pbmit-xcare-gradient-color-first) , var(--pbmit-xcare-gradient-color-last) );
+ }
+ .pbmit-footer-section.pbmit-bg-color-gradientcolor,
+ .pbmit-footer-section.pbmit-bg-color-gradientcolor:before{
+	 background-image: -ms-linear-gradient(right, var(--pbmit-xcare-gradient-color-first) 0%, var(--pbmit-xcare-gradient-color-last) 100%) !important;
+	 background-image: linear-gradient(to right, var(--pbmit-xcare-gradient-color-first) , var(--pbmit-xcare-gradient-color-last) ) !important;
+ }
+
+ /* --------------------------------------
+  *  Light Color
+  * ---------------------------------------*/
+ .pbmit-btn-style-flat.pbmit-btn-color-light .elementor-button,
+ .pbmit-bg-color-light{
+	 background-color: var(--pbmit-xcare-light-bg-color);
+ }
+
+ .pbmit-btn-style-text.pbmit-btn-color-light .elementor-button{
+	 color: var(--pbmit-xcare-light-bg-color);
+ }
+ .pbmit-btn-style-outline.pbmit-btn-color-light .elementor-button{
+	 border-color: var(--pbmit-xcare-light-bg-color);
+	 color: var(--pbmit-xcare-light-bg-color);
+ } 
+
+ /* --------------------------------------
+  * White color
+  * ---------------------------------------*/
+
+ /*=== White BG Color ===*/
+
+ .pbmit-sticky-on.pbmit-sticky-bg-color-white,
+ .pbmit-bg-color-white {
+	 background-color: var(--pbmit-xcare-white-color);   
+ }
+ .pbmit-color-white a,
+ .pbmit-color-white {
+	color: var(--pbmit-xcare-white-color);
+ }
+
+  /* --------------------------------------
+  * Transparent color
+  * ---------------------------------------*/
+
+ /*=== Transparent BG Color ===*/
+
+ .pbmit-sticky-on.pbmit-sticky-bg-color-transparent,
+ .pbmit-bg-color-transparent {
+	background-color: transparent;
+ }
+
+  /* --------------------------------------
+  * Blackish color
+  * ---------------------------------------*/
+
+ /*=== Blackish BG Color ===*/
+
+ .pbmit-bg-color-blackish {
+	background-color: var(--pbmit-xcare-blackish-bg-color);   
+}
+.pbmit-color-blackish,
+.pbmit-bg-color-globalcolor.pbmit-color-white a:hover,
+.pbmit-color-globalcolor a:hover,
+.pbmit-color-blackish a {
+	color: var(--pbmit-xcare-blackish-color);
+}

@@ -1,0 +1,109 @@
+.elementor-add-new-section .xcare-template-kits-add-template-button {
+	background-color: #76ba43;
+	margin-left: 5px;
+	vertical-align: bottom;
+}
+.rtl .elementor-add-new-section .xcare-template-kits-add-template-button {
+	margin-right: 5px;
+	margin-left: 0;
+}
+.elementor-add-new-section .xcare-template-kits-add-template-button img {
+	width: 16px;
+	margin: 0;
+}
+.xcare-template-kits-modal .elementor-templates-modal__header__logo__icon-wrapper.e-logo-wrapper img{
+	height : 16px;
+}
+.xcare-template-kits-modal .elementor-templates-modal__header{
+	color: #fff;
+}
+.xcare-elementor-tooltip {
+	display:inline-block;
+	position:relative;
+	border-bottom:1px dotted #666;
+	text-align:left;
+}
+.xcare-elementor-tooltip .top {
+	min-width:200px; 
+	top:-10px;
+	left:50%;
+	transform:translate(-50%, -100%);
+	padding:10px 15px;
+	color:#444444;
+	background-color:#000;
+	font-weight:normal;
+	font-size:13px;
+	border-radius:0px;
+	position:absolute;
+	z-index:99999999;
+	box-sizing:border-box;
+	box-shadow:0 1px 8px rgba(0,0,0,0.5);
+	visibility:hidden; opacity:0; transition:opacity 0.8s;
+}
+.xcare-elementor-tooltip .top::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black transparent transparent transparent;
+}
+.xcare-elementor-tooltip:hover .top {
+	visibility:visible; opacity:1;
+}
+.xcare-elementor-tooltip .top i {
+	position:absolute;
+	top:100%;
+	left:50%;
+	margin-left:-12px;
+	width:24px;
+	height:12px;
+	overflow:hidden;
+}
+.xcare-elementor-tooltip .top i::after {
+	content:'';
+	position:absolute;
+	width:12px;
+	height:12px;
+	left:50%;
+	transform:translate(-50%,-50%) rotate(45deg);
+	background-color:#EEEEEE;
+	box-shadow:0 1px 8px rgba(0,0,0,0.5);
+}
+.elementor-add-new-section .xcare-template-kits-add-template-button img {
+	width: 26px;
+	margin: 0;
+}
+.elementor-add-new-section .elementor-add-section-area-button {
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	display: inline-block;
+	line-height: 50px;
+	padding: 0;
+}
+.xcare-elementor-tooltip .h3-top {
+	color: #fff;
+	font-size: 13px;
+	line-height: normal;
+	margin-bottom: 0;
+	text-align: center;
+}
+.pbm-elementor-component-tab{
+	display: inline-block;
+	padding: 17px 0;
+	width: 115px;
+	cursor: pointer;
+	text-align: center;
+	color: #6d7882;
+	font-size: 13px;
+	color: #fff;
+	border-bottom: 3px solid #23361426;
+}
+.pbm-elementor-component-tab.selected{
+	background-image: linear-gradient(180deg,#519d18,#49871c);
+	border-bottom: 3px solid #233614;
+	color: #fff;
+}

@@ -1,0 +1,105 @@
+$flaticon_gastroenterology-font: "flaticon_gastroenterology";
+
+@font-face {
+    font-family: $flaticon_gastroenterology-font;
+    src: url("./flaticon_gastroenterology.woff2?eddadc362278e1abf35791787f0ffa8f") format("woff2"),
+url("./flaticon_gastroenterology.woff?eddadc362278e1abf35791787f0ffa8f") format("woff"),
+url("./flaticon_gastroenterology.eot?eddadc362278e1abf35791787f0ffa8f#iefix") format("embedded-opentype"),
+url("./flaticon_gastroenterology.ttf?eddadc362278e1abf35791787f0ffa8f") format("truetype"),
+url("./flaticon_gastroenterology.svg?eddadc362278e1abf35791787f0ffa8f#flaticon_gastroenterology") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_gastroenterology !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_gastroenterology-map: (
+    "stomach": "\f101",
+    "colon": "\f102",
+    "gastroenterologist": "\f103",
+    "gastroenterologist-1": "\f104",
+    "medicine": "\f105",
+    "stomach-1": "\f106",
+    "examination": "\f107",
+    "surgery-room": "\f108",
+    "probiotic": "\f109",
+    "bacteria": "\f10a",
+    "medicine-1": "\f10b",
+    "ultrasound": "\f10c",
+    "no-fast-food": "\f10d",
+    "analysis": "\f10e",
+    "pain": "\f10f",
+    "stomach-2": "\f110",
+    "hepatology": "\f111",
+    "liver-cancer": "\f112",
+    "fatty-liver": "\f113",
+    "stomachache": "\f114",
+);
+
+.flaticon-stomach:before {
+    content: map-get($flaticon_gastroenterology-map, "stomach");
+}
+.flaticon-colon:before {
+    content: map-get($flaticon_gastroenterology-map, "colon");
+}
+.flaticon-gastroenterologist:before {
+    content: map-get($flaticon_gastroenterology-map, "gastroenterologist");
+}
+.flaticon-gastroenterologist-1:before {
+    content: map-get($flaticon_gastroenterology-map, "gastroenterologist-1");
+}
+.flaticon-medicine:before {
+    content: map-get($flaticon_gastroenterology-map, "medicine");
+}
+.flaticon-stomach-1:before {
+    content: map-get($flaticon_gastroenterology-map, "stomach-1");
+}
+.flaticon-examination:before {
+    content: map-get($flaticon_gastroenterology-map, "examination");
+}
+.flaticon-surgery-room:before {
+    content: map-get($flaticon_gastroenterology-map, "surgery-room");
+}
+.flaticon-probiotic:before {
+    content: map-get($flaticon_gastroenterology-map, "probiotic");
+}
+.flaticon-bacteria:before {
+    content: map-get($flaticon_gastroenterology-map, "bacteria");
+}
+.flaticon-medicine-1:before {
+    content: map-get($flaticon_gastroenterology-map, "medicine-1");
+}
+.flaticon-ultrasound:before {
+    content: map-get($flaticon_gastroenterology-map, "ultrasound");
+}
+.flaticon-no-fast-food:before {
+    content: map-get($flaticon_gastroenterology-map, "no-fast-food");
+}
+.flaticon-analysis:before {
+    content: map-get($flaticon_gastroenterology-map, "analysis");
+}
+.flaticon-pain:before {
+    content: map-get($flaticon_gastroenterology-map, "pain");
+}
+.flaticon-stomach-2:before {
+    content: map-get($flaticon_gastroenterology-map, "stomach-2");
+}
+.flaticon-hepatology:before {
+    content: map-get($flaticon_gastroenterology-map, "hepatology");
+}
+.flaticon-liver-cancer:before {
+    content: map-get($flaticon_gastroenterology-map, "liver-cancer");
+}
+.flaticon-fatty-liver:before {
+    content: map-get($flaticon_gastroenterology-map, "fatty-liver");
+}
+.flaticon-stomachache:before {
+    content: map-get($flaticon_gastroenterology-map, "stomachache");
+}

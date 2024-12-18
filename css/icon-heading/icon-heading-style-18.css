@@ -1,0 +1,219 @@
+.pbmit-ihbox-style-18 .pbmit-lightbox-video{
+	position: relative;
+	margin-left: 25px;
+}
+.rtl .pbmit-ihbox-style-18 .pbmit-lightbox-video{
+	margin: 0 25px 0 0;
+}
+.pbmit-ihbox-style-18 .pbmit-ihbox-icon-type-image img,
+.pbmit-ihbox-style-18 .pbmit-feature-wrapper-img img{
+	border-radius: 20px;
+	clip-path: polygon( 6.297% 0.632%,6.297% 0.632%,5.409% 1.003%,4.571% 1.466%,3.79% 2.016%,3.069% 2.647%,2.414% 3.353%,1.83% 4.127%,1.323% 4.964%,0.897% 5.857%,0.558% 6.8%,0.31% 7.787%,0.31% 7.787%,0.241% 8.497%,0.183% 9.929%,0.135% 12.113%,0.098% 15.082%,0.07% 18.864%,0.051% 23.493%,0.041% 28.998%,0.04% 35.41%,0.047% 42.761%,0.062% 51.082%,0.155% 92.679%,1.024% 94.576%,1.024% 94.576%,1.328% 95.19%,1.67% 95.778%,2.048% 96.337%,2.46% 96.866%,2.904% 97.362%,3.379% 97.825%,3.883% 98.251%,4.414% 98.641%,4.971% 98.991%,5.553% 99.301%,6.98% 100%,93.216% 100%,94.984% 99.068%,94.984% 99.068%,95.557% 98.741%,96.105% 98.375%,96.626% 97.969%,97.119% 97.528%,97.581% 97.051%,98.013% 96.542%,98.41% 96.001%,98.774% 95.431%,99.1% 94.833%,99.389% 94.21%,99.389% 94.21%,99.565% 93.759%,99.707% 93.2%,99.817% 92.344%,99.9% 91.003%,99.959% 88.989%,99.999% 86.114%,100.023% 82.188%,100.035% 77.024%,100.04% 70.434%,100.04% 62.23%,100.04% 31.78%,99.296% 29.817%,99.296% 29.817%,99.031% 29.16%,98.729% 28.525%,98.39% 27.914%,98.016% 27.33%,97.609% 26.772%,97.168% 26.244%,96.697% 25.747%,96.195% 25.283%,95.665% 24.853%,95.108% 24.459%,95.108% 24.459%,94.848% 24.316%,94.504% 24.149%,94.086% 23.963%,93.604% 23.761%,93.069% 23.548%,92.49% 23.328%,91.88% 23.106%,91.248% 22.884%,90.604% 22.669%,89.959% 22.463%,89.959% 22.463%,88.711% 22.056%,87.636% 21.687%,86.712% 21.346%,85.922% 21.024%,85.244% 20.711%,84.659% 20.397%,84.147% 20.072%,83.689% 19.727%,83.265% 19.351%,82.855% 18.935%,82.855% 18.935%,82.476% 18.507%,82.118% 18.033%,81.774% 17.5%,81.439% 16.899%,81.106% 16.215%,80.771% 15.437%,80.428% 14.553%,80.07% 13.552%,79.692% 12.421%,79.288% 11.148%,79.288% 11.148%,78.909% 9.986%,78.55% 8.947%,78.204% 8.02%,77.865% 7.193%,77.527% 6.452%,77.184% 5.786%,76.828% 5.183%,76.455% 4.63%,76.057% 4.116%,75.627% 3.627%,75.627% 3.627%,75.181% 3.199%,74.65% 2.777%,74.047% 2.367%,73.385% 1.976%,72.677% 1.61%,71.933% 1.274%,71.168% 0.976%,70.393% 0.721%,69.621% 0.516%,68.865% 0.366%,68.865% 0.366%,68.176% 0.299%,66.901% 0.239%,65.054% 0.184%,62.651% 0.137%,59.706% 0.096%,56.235% 0.062%,52.251% 0.035%,47.771% 0.016%,42.809% 0.004%,37.379% 0%,37.379% 0%,29.872% 0.011%,23.739% 0.024%,18.832% 0.044%,15.003% 0.074%,12.102% 0.116%,9.979% 0.175%,8.487% 0.253%,7.475% 0.352%,6.795% 0.478%,6.297% 0.632% );
+}
+.rtl .pbmit-ihbox-style-18 .pbmit-ihbox-icon-type-image img,
+.rtl .pbmit-ihbox-style-18 .pbmit-feature-wrapper-img img{
+	-webkit-transform: scaleX(-1);
+	-ms-transform: scaleX(-1);
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+.pbmit-miconheading-style-18:nth-child(odd) .pbmit-ihbox-style-18 .pbmit-ihbox-icon-type-image img{
+	clip-path: polygon( 6.297% 0.632%,6.297% 0.632%,5.409% 1.003%,4.571% 1.466%,3.79% 2.016%,3.069% 2.647%,2.414% 3.353%,1.83% 4.127%,1.323% 4.964%,0.897% 5.857%,0.558% 6.8%,0.31% 7.787%,0.31% 7.787%,0.241% 8.497%,0.183% 9.929%,0.135% 12.113%,0.098% 15.082%,0.07% 18.864%,0.051% 23.493%,0.041% 28.998%,0.04% 35.41%,0.047% 42.761%,0.062% 51.082%,0.155% 92.679%,1.024% 94.576%,1.024% 94.576%,1.328% 95.19%,1.67% 95.778%,2.048% 96.337%,2.46% 96.866%,2.904% 97.362%,3.379% 97.825%,3.883% 98.251%,4.414% 98.641%,4.971% 98.991%,5.553% 99.301%,6.98% 100%,93.216% 100%,94.984% 99.068%,94.984% 99.068%,95.557% 98.741%,96.105% 98.375%,96.626% 97.969%,97.119% 97.528%,97.581% 97.051%,98.013% 96.542%,98.41% 96.001%,98.774% 95.431%,99.1% 94.833%,99.389% 94.21%,99.389% 94.21%,99.565% 93.759%,99.707% 93.2%,99.817% 92.344%,99.9% 91.003%,99.959% 88.989%,99.999% 86.114%,100.023% 82.188%,100.035% 77.024%,100.04% 70.434%,100.04% 62.23%,100.04% 31.78%,99.296% 29.817%,99.296% 29.817%,99.031% 29.16%,98.729% 28.525%,98.39% 27.914%,98.016% 27.33%,97.609% 26.772%,97.168% 26.244%,96.697% 25.747%,96.195% 25.283%,95.665% 24.853%,95.108% 24.459%,95.108% 24.459%,94.848% 24.316%,94.504% 24.149%,94.086% 23.963%,93.604% 23.761%,93.069% 23.548%,92.49% 23.328%,91.88% 23.106%,91.248% 22.884%,90.604% 22.669%,89.959% 22.463%,89.959% 22.463%,88.711% 22.056%,87.636% 21.687%,86.712% 21.346%,85.922% 21.024%,85.244% 20.711%,84.659% 20.397%,84.147% 20.072%,83.689% 19.727%,83.265% 19.351%,82.855% 18.935%,82.855% 18.935%,82.476% 18.507%,82.118% 18.033%,81.774% 17.5%,81.439% 16.899%,81.106% 16.215%,80.771% 15.437%,80.428% 14.553%,80.07% 13.552%,79.692% 12.421%,79.288% 11.148%,79.288% 11.148%,78.909% 9.986%,78.55% 8.947%,78.204% 8.02%,77.865% 7.193%,77.527% 6.452%,77.184% 5.786%,76.828% 5.183%,76.455% 4.63%,76.057% 4.116%,75.627% 3.627%,75.627% 3.627%,75.181% 3.199%,74.65% 2.777%,74.047% 2.367%,73.385% 1.976%,72.677% 1.61%,71.933% 1.274%,71.168% 0.976%,70.393% 0.721%,69.621% 0.516%,68.865% 0.366%,68.865% 0.366%,68.176% 0.299%,66.901% 0.239%,65.054% 0.184%,62.651% 0.137%,59.706% 0.096%,56.235% 0.062%,52.251% 0.035%,47.771% 0.016%,42.809% 0.004%,37.379% 0%,37.379% 0%,29.872% 0.011%,23.739% 0.024%,18.832% 0.044%,15.003% 0.074%,12.102% 0.116%,9.979% 0.175%,8.487% 0.253%,7.475% 0.352%,6.795% 0.478%,6.297% 0.632% );
+}
+.pbmit-miconheading-style-18:nth-child(even) .pbmit-ihbox-style-18 .pbmit-ihbox-icon-type-image img{
+	clip-path: polygon( 6.297% 0.599%,6.297% 0.599%,5.41% 0.975%,4.573% 1.444%,3.792% 1.999%,3.072% 2.634%,2.418% 3.342%,1.834% 4.119%,1.327% 4.957%,0.9% 5.851%,0.56% 6.795%,0.31% 7.783%,0.31% 7.783%,0.241% 8.493%,0.183% 9.924%,0.135% 12.107%,0.098% 15.074%,0.07% 18.855%,0.051% 23.481%,0.041% 28.983%,0.04% 35.393%,0.047% 42.74%,0.062% 51.056%,0.155% 92.633%,1.024% 94.529%,1.024% 94.529%,1.328% 95.143%,1.67% 95.73%,2.048% 96.289%,2.46% 96.817%,2.904% 97.314%,3.379% 97.776%,3.883% 98.202%,4.414% 98.592%,4.971% 98.942%,5.553% 99.252%,5.553% 99.252%,5.976% 99.441%,6.511% 99.593%,7.341% 99.713%,8.649% 99.806%,10.617% 99.875%,13.428% 99.927%,17.265% 99.965%,22.311% 99.996%,28.748% 100.022%,36.759% 100.05%,36.759% 100.05%,42.461% 100.065%,47.601% 100.07%,52.181% 100.066%,56.203% 100.052%,59.667% 100.029%,62.578% 99.997%,64.935% 99.957%,66.742% 99.907%,68% 99.85%,68.71% 99.784%,68.71% 99.784%,69.499% 99.626%,70.296% 99.416%,71.089% 99.158%,71.868% 98.859%,72.622% 98.524%,73.34% 98.158%,74.01% 97.766%,74.622% 97.354%,75.165% 96.927%,75.627% 96.491%,75.627% 96.491%,76.057% 96.003%,76.455% 95.489%,76.828% 94.936%,77.184% 94.333%,77.527% 93.668%,77.865% 92.927%,78.204% 92.1%,78.55% 91.173%,78.909% 90.135%,79.288% 88.974%,79.288% 88.974%,79.692% 87.702%,80.07% 86.571%,80.428% 85.57%,80.771% 84.687%,81.106% 83.91%,81.439% 83.226%,81.774% 82.625%,82.118% 82.093%,82.476% 81.619%,82.855% 81.191%,82.855% 81.191%,83.265% 80.775%,83.689% 80.399%,84.147% 80.054%,84.659% 79.729%,85.244% 79.415%,85.922% 79.102%,86.712% 78.781%,87.636% 78.44%,88.711% 78.072%,89.959% 77.665%,89.959% 77.665%,90.604% 77.459%,91.248% 77.244%,91.88% 77.022%,92.49% 76.8%,93.069% 76.58%,93.604% 76.367%,94.086% 76.165%,94.504% 75.979%,94.848% 75.812%,95.108% 75.669%,95.108% 75.669%,95.665% 75.276%,96.195% 74.846%,96.697% 74.382%,97.168% 73.885%,97.609% 73.357%,98.016% 72.8%,98.39% 72.216%,98.729% 71.606%,99.031% 70.971%,99.296% 70.314%,100.04% 68.352%,100.04% 37.918%,100.04% 37.918%,100.04% 29.717%,100.035% 23.13%,100.023% 17.969%,99.999% 14.046%,99.959% 11.172%,99.9% 9.159%,99.817% 7.818%,99.707% 6.963%,99.565% 6.404%,99.389% 5.954%,99.389% 5.954%,99.1% 5.33%,98.774% 4.733%,98.41% 4.163%,98.013% 3.623%,97.581% 3.114%,97.119% 2.637%,96.626% 2.196%,96.105% 1.791%,95.557% 1.424%,94.984% 1.098%,93.216% 0.166%,50.563% 0.1%,50.563% 0.1%,39.565% 0.082%,30.62% 0.072%,23.505% 0.071%,17.998% 0.084%,13.878% 0.112%,10.921% 0.16%,8.907% 0.229%,7.613% 0.323%,6.817% 0.446%,6.297% 0.599% );
+}
+.pbmit-ihbox-style-18{
+	-webkit-transition: all .25s ease-in-out;
+	-ms-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+}
+.pbmit-element-miconheading-style-18.pbmit-element-viewtype-carousel .pbmit-ihbox-style-18{
+	padding-top: 5px;
+}
+.pbmit-ihbox-style-18:hover{
+	transform: translate(0, -5px);
+}
+.pbmit-ihbox-style-18 .pbmit-icon-wrap{
+	position: relative;
+	margin-bottom: 45px;
+	display: inline-block;
+}
+.pbmit-ihbox-style-18 .pbmit-ihbox-box-number{
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 14px;
+	width: 55px;
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+	border-radius: 100%;
+	color: var(--pbmit-xcare-white-color);
+	background-color: var(--pbmit-xcare-global-color);
+}
+.rtl .pbmit-ihbox-style-18 .pbmit-ihbox-box-number{
+	left: 0;
+	right: inherit;
+}
+.pbmit-miconheading-style-18:nth-child(odd) .pbmit-ihbox-style-18 .pbmit-ihbox-box-number{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.rtl .pbmit-miconheading-style-18:nth-child(odd) .pbmit-ihbox-style-18 .pbmit-ihbox-box-number{
+	left: 0;
+	right: inherit;
+}
+.pbmit-miconheading-style-18:nth-child(even) .pbmit-ihbox-style-18 .pbmit-ihbox-box-number{
+	position: absolute;
+	top: inherit;
+	bottom: 0;
+	right: 0;
+}
+.rtl .pbmit-miconheading-style-18:nth-child(even) .pbmit-ihbox-style-18 .pbmit-ihbox-box-number{
+	left: 0;
+	right: inherit;
+}
+.pbmit-ihbox-style-18 .pbmit-icon-type-icon{
+	font-size: 60px;
+	line-height: 60px;
+	color: var(--pbmit-xcare-global-color);
+}
+.pbmit-ihbox-style-18 .pbmit-ihbox-svg-wrapper svg{
+	width: 60px;
+	height: 60px;
+	margin-bottom: 20px;
+	fill: var(--pbmit-xcare-global-color);
+}
+.pbmit-ihbox-style-18 .pbmit-ihbox-icon-type-text{
+	font-size: 14px;
+	width: 55px;
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+	border-radius: 100%;
+	margin-bottom: 20px;
+	color: var(--pbmit-xcare-white-color);
+	background-color: var(--pbmit-xcare-global-color);
+}
+.pbmit-ihbox-style-18 .pbmit-element-title{
+	font-size: 26px;
+	line-height: 32px;
+	margin-bottom: 15px;
+	transition: all 0.6s ease-in-out;
+}
+.pbmit-ihbox-style-18 .pbmit-element-subtitle{
+	font-size: 16px;
+	line-height: 22px;
+	margin-bottom: 0;
+}
+.pbmit-ihbox-style-18 .pbmit-ihbox-btn{
+	margin-top: 15px;
+	display: inline-block;
+}
+.pbmit-ihbox-style-18 .pbmit-ihbox-btn a{
+	display: inline-block;
+	padding: 18px 35px;
+	background-color: transparent;
+	border-radius: 30px;
+	color: var(--pbmit-xcare-white-color);
+	background-color: var(--pbmit-xcare-global-color);
+	transition: all .4s ease-in;
+}
+.pbmit-ihbox-style-18 .pbmit-ihbox-btn a:hover{
+	background-color: var(--pbmit-xcare-blackish-color);
+	color: var(--pbmit-xcare-white-color);
+}
+.pbmit-ihbox-style-18 .pbmit-ihbox-btn .pbmit-button-icon-wrapper{
+	position: relative;
+	overflow: hidden;
+	display: inline-flex;
+	margin-left: 6px;
+}
+.rtl .pbmit-ihbox-style-18 .pbmit-ihbox-btn .pbmit-button-icon-wrapper{
+	margin: 0 6px 0 0;
+}
+.pbmit-ihbox-style-18 .pbmit-ihbox-btn .pbmit-button-icon-wrapper::before{
+	content: "\e8dd";
+	font-family: "pbminfotech-base-icons";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 1em;
+	height: auto;
+	transform: scale(0.26) translate(-52px, 50px);
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+.pbmit-ihbox-style-18 .pbmit-ihbox-btn:hover .pbmit-button-icon-wrapper::before{
+	transform: scale(1) translate(-2px, 0px);
+}
+.pbmit-ihbox-style-18 .pbmit-ihbox-btn .pbmit-button-icon{
+	display: inline-block;
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+.pbmit-ihbox-style-18 .pbmit-ihbox-btn:hover .pbmit-button-icon{
+	transform: scale(0.26) translate(45px, -50px);
+}
+/* == For bg color == */
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-18 .pbmit-element-title,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-18 .pbmit-element-title,
+.pbmit-elementor-bg-color-secondary .pbmit-ihbox-style-18 .pbmit-element-title,
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-18 .pbmit-element-title{
+	color: var(--pbmit-xcare-white-color);
+}
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-18 .pbmit-element-heading,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-18 .pbmit-element-heading{
+	color: var(--pbmit-xcare-blackish-color);
+}
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-18 .pbmit-ihbox-btn a,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-18 .pbmit-ihbox-btn a{
+	background-color: var(--pbmit-xcare-blackish-color);
+}
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-18 .pbmit-ihbox-btn a:hover,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-18 .pbmit-ihbox-btn a:hover,
+.pbmit-elementor-bg-color-secondary .pbmit-ihbox-style-18 .pbmit-ihbox-btn a:hover,
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-18 .pbmit-ihbox-btn a:hover{
+	color: var(--pbmit-xcare-blackish-color);
+	background-color: var(--pbmit-xcare-white-color);
+}
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-18 .pbmit-ihbox-icon-type-text,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-18 .pbmit-ihbox-icon-type-text,
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-18 .pbmit-ihbox-box-number,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-18 .pbmit-ihbox-box-number{
+	background-color: var(--pbmit-xcare-blackish-color);
+}
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-18 .pbmit-icon-type-icon,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-18 .pbmit-icon-type-icon{
+	color: var(--pbmit-xcare-white-color);
+}
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-18 .pbmit-ihbox-svg-wrapper svg,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-18 .pbmit-ihbox-svg-wrapper svg{
+	fill: var(--pbmit-xcare-white-color);
+}
+@media(max-width: 1280px){
+	.pbmit-miconheading-style-18:nth-child(even) .pbmit-ihbox-style-18 .pbmit-ihbox-icon-type-image img,
+	.pbmit-miconheading-style-18:nth-child(odd) .pbmit-ihbox-style-18 .pbmit-ihbox-icon-type-image img{
+		clip-path: unset;
+		width: 100%;
+	}
+	.pbmit-miconheading-style-18:nth-child(odd) .pbmit-ihbox-style-18 .pbmit-ihbox-box-number{
+		top: 5px;
+		right: 5px;
+	}
+	.pbmit-miconheading-style-18:nth-child(even) .pbmit-ihbox-style-18 .pbmit-ihbox-box-number{
+		bottom:5px;
+		right: 5px;
+	}
+	.pbmit-ihbox-style-18 .pbmit-icon-wrap{
+		display: block;
+	}
+}
+@media(max-width: 991px){
+	.pbmit-ihbox-style-18 .pbmit-element-title{
+		font-size: 20px;
+		line-height: 26px;
+	}
+}

@@ -1,0 +1,513 @@
+
+/*========================================== Row / Colum Background Base Css ==========================================*/
+
+.elementor-section.elementor-top-section.pbmit-bg-image-over-color.pbmit-bgimage-yes:before,
+.elementor-column.elementor-top-column.pbmit-bgimage-yes.pbmit-bg-image-over-color > .pbmit-stretched-div:before,
+
+.elementor-column.elementor-top-column.pbmit-bg-image-over-color > .elementor-widget-wrap:before,
+.elementor-column.elementor-inner-column.pbmit-bg-image-over-color > .elementor-widget-wrap:before,
+
+.elementor-element.elementor-section.elementor-inner-section.pbmit-bg-image-over-color.pbmit-bgimage-yes:before{
+	background-color: transparent !important;
+}
+
+/* --------------------------------------
+ * Row Colum - Global BG Color
+ * ---------------------------------------*/
+/*--- First RoW BG ---*/
+.elementor-section.elementor-top-section.pbmit-elementor-bg-color-globalcolor,
+.elementor-section.elementor-top-section.pbmit-elementor-bg-color-globalcolor:before,
+
+/*--- Second RoW BG ---*/
+.elementor-section.elementor-inner-section.pbmit-elementor-bg-color-globalcolor{
+	background-color: var(--pbmit-xcare-global-color);
+}
+
+/*--- First Colum BG - ---*/
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-globalcolor:not(.pbmit-bgimage-yes) .elementor-widget-wrap > .pbmit-stretched-div,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-globalcolor.pbmit-bg-image-over-color .elementor-widget-wrap > .pbmit-stretched-div,
+
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-globalcolor:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-globalcolor.pbmit-bg-image-over-color:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap,
+
+/*--- Second RoW BG ---*/
+.elementor-section.elementor-inner-section.pbmit-elementor-bg-color-globalcolor.pbmit-bg-image-over-color:before,
+
+/*--- Second Colum BG - ---*/
+.elementor-column.elementor-inner-column.pbmit-elementor-bg-color-globalcolor:not(.pbmit-bgimage-yes) > .elementor-widget-wrap,
+.elementor-column.elementor-inner-column.pbmit-elementor-bg-color-globalcolor.pbmit-bg-image-over-color > .elementor-widget-wrap{
+	background-color: var(--pbmit-xcare-global-color) !important;
+}
+
+/*--- First RoW BG - with image ---*/
+.elementor-section.elementor-top-section.pbmit-elementor-bg-color-globalcolor.pbmit-bgimage-yes:before,
+
+/*--- First Colum BG - with image ---*/
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-globalcolor.pbmit-bgimage-yes:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap:before,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-globalcolor.pbmit-bgimage-yes:not(.pbmit-bg-image-over-color) .elementor-widget-wrap .pbmit-stretched-div:before,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-globalcolor .elementor-widget-wrap .pbmit-bgimage-yes.pbmit-stretched-div:before,
+
+/*--- Second RoW BG ---*/
+.elementor-section.elementor-inner-section.pbmit-elementor-bg-color-globalcolor.pbmit-bg-color-over-image:before,
+
+/*--- Second Colum BG - with image ---*/
+.elementor-column.elementor-inner-column.pbmit-elementor-bg-color-globalcolor.pbmit-bgimage-yes > .elementor-widget-wrap:before{
+	background-color: rgba( var(--pbmit-xcare-global-color-rgb) , 0.60 );
+}
+/*====== End --- Row Colum - Global BG Color ======*/
+
+/* --------------------------------------
+ * Row Colum - Light BG Color
+ * ---------------------------------------*/
+/*--- First RoW BG ---*/
+.elementor-section.elementor-top-section.pbmit-elementor-bg-color-light,
+.elementor-section.elementor-top-section.pbmit-elementor-bg-color-light:before,
+
+/*--- Second RoW BG ---*/
+.elementor-section.elementor-inner-section.pbmit-elementor-bg-color-light{
+	background-color: var(--pbmit-xcare-light-bg-color);
+}
+
+/*--- First Colum BG - ---*/
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-light:not(.pbmit-bgimage-yes) .elementor-widget-wrap > .pbmit-stretched-div,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-light.pbmit-bg-image-over-color .elementor-widget-wrap > .pbmit-stretched-div,
+
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-light:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-light.pbmit-bg-image-over-color:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap,
+
+/*--- Second RoW BG ---*/
+.elementor-section.elementor-inner-section.pbmit-elementor-bg-color-light.pbmit-bg-image-over-color:before,
+
+/*--- Second Colum BG - ---*/
+.elementor-column.elementor-inner-column.pbmit-elementor-bg-color-light:not(.pbmit-bgimage-yes) > .elementor-widget-wrap,
+.elementor-column.elementor-inner-column.pbmit-elementor-bg-color-light.pbmit-bg-image-over-color > .elementor-widget-wrap{
+	background-color: var(--pbmit-xcare-light-bg-color) !important;
+}
+
+/*--- First RoW BG - with image ---*/
+.elementor-section.elementor-top-section.pbmit-elementor-bg-color-light.pbmit-bgimage-yes:before,
+
+/*--- First Colum BG - with image ---*/
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-light.pbmit-bgimage-yes:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap:before,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-light.pbmit-bgimage-yes:not(.pbmit-bg-image-over-color) .elementor-widget-wrap .pbmit-stretched-div:before,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-light .elementor-widget-wrap .pbmit-bgimage-yes.pbmit-stretched-div:before,
+
+/*--- Second RoW BG ---*/
+.elementor-section.elementor-inner-section.pbmit-elementor-bg-color-light.pbmit-bg-color-over-image:before,
+
+/*--- Second Colum BG - with image ---*/
+.elementor-column.elementor-inner-column.pbmit-elementor-bg-color-light.pbmit-bgimage-yes > .elementor-widget-wrap:before{
+	background-color: rgba( var(--pbmit-xcare-light-bg-color-rgb) , 0.60 );
+}
+/*====== End --- Row Colum - Light BG Color ======*/
+
+/* --------------------------------------
+ * Row Colum - Secondary BG Color
+ * ---------------------------------------*/
+/*--- First RoW BG ---*/
+.elementor-section.elementor-top-section.pbmit-elementor-bg-color-secondary,
+.elementor-section.elementor-top-section.pbmit-elementor-bg-color-secondary:before,
+
+/*--- Second RoW BG ---*/
+.elementor-section.elementor-inner-section.pbmit-elementor-bg-color-secondary{
+	background-color: var(--pbmit-xcare-secondary-color);
+}
+
+/*--- First Colum BG - ---*/
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-secondary:not(.pbmit-bgimage-yes) .elementor-widget-wrap > .pbmit-stretched-div,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-secondary.pbmit-bg-image-over-color .elementor-widget-wrap > .pbmit-stretched-div,
+
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-secondary:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-secondary.pbmit-bg-image-over-color:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap,
+
+/*--- Second RoW BG ---*/
+.elementor-section.elementor-inner-section.pbmit-elementor-bg-color-secondary.pbmit-bg-image-over-color:before,
+
+/*--- Second Colum BG - ---*/
+.elementor-column.elementor-inner-column.pbmit-elementor-bg-color-secondary:not(.pbmit-bgimage-yes) > .elementor-widget-wrap,
+.elementor-column.elementor-inner-column.pbmit-elementor-bg-color-secondary.pbmit-bg-image-over-color > .elementor-widget-wrap{
+	background-color: var(--pbmit-xcare-secondary-color) !important;
+}
+
+/*--- First RoW BG - with image ---*/
+.elementor-section.elementor-top-section.pbmit-elementor-bg-color-secondary.pbmit-bgimage-yes:before,
+
+/*--- First Colum BG - with image ---*/
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-secondary.pbmit-bgimage-yes:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap:before,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-secondary.pbmit-bgimage-yes:not(.pbmit-bg-image-over-color) .elementor-widget-wrap .pbmit-stretched-div:before,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-secondary .elementor-widget-wrap .pbmit-bgimage-yes.pbmit-stretched-div:before,
+
+/*--- Second RoW BG ---*/
+.elementor-section.elementor-inner-section.pbmit-elementor-bg-color-secondary.pbmit-bg-color-over-image:before,
+
+/*--- Second Colum BG - with image ---*/
+.elementor-column.elementor-inner-column.pbmit-elementor-bg-color-secondary.pbmit-bgimage-yes > .elementor-widget-wrap:before{
+	background-color: rgba( var(--pbmit-xcare-secondary-color-rgb) , 0.01 );
+}
+
+/*====== End --- Row Colum - Light BG Color ======*/
+
+/* --------------------------------------
+ * Row Colum - Blackish BG Color
+ * ---------------------------------------*/
+/*--- First RoW BG ---*/
+.elementor-section.elementor-top-section.pbmit-elementor-bg-color-blackish,
+.elementor-section.elementor-top-section.pbmit-elementor-bg-color-blackish:before,
+
+/*--- Second RoW BG ---*/
+.elementor-section.elementor-inner-section.pbmit-elementor-bg-color-blackish{
+	background-color: var(--pbmit-xcare-blackish-bg-color);
+}
+
+/*--- First Colum BG - ---*/
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-blackish:not(.pbmit-bgimage-yes) .elementor-widget-wrap > .pbmit-stretched-div,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-blackish.pbmit-bg-image-over-color .elementor-widget-wrap > .pbmit-stretched-div,
+
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-blackish:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-blackish.pbmit-bg-image-over-color:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap,
+
+/*--- Second RoW BG ---*/
+.elementor-section.elementor-inner-section.pbmit-elementor-bg-color-blackish.pbmit-bg-image-over-color:before,
+
+/*--- Second Colum BG - ---*/
+.elementor-column.elementor-inner-column.pbmit-elementor-bg-color-blackish:not(.pbmit-bgimage-yes) > .elementor-widget-wrap,
+.elementor-column.elementor-inner-column.pbmit-elementor-bg-color-blackish.pbmit-bg-image-over-color > .elementor-widget-wrap{
+	background-color: var(--pbmit-xcare-blackish-bg-color) !important;
+}
+
+/*--- First RoW BG - with image ---*/
+.elementor-section.elementor-top-section.pbmit-elementor-bg-color-blackish.pbmit-bgimage-yes:before,
+
+/*--- First Colum BG - with image ---*/
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-blackish.pbmit-bgimage-yes:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap:before,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-blackish.pbmit-bgimage-yes:not(.pbmit-bg-image-over-color) .elementor-widget-wrap .pbmit-stretched-div:before,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-blackish .elementor-widget-wrap .pbmit-bgimage-yes.pbmit-stretched-div:before,
+
+/*--- Second RoW BG ---*/
+.elementor-section.elementor-inner-section.pbmit-elementor-bg-color-blackish.pbmit-bg-color-over-image:before,
+
+/*--- Second Colum BG - with image ---*/
+.elementor-column.elementor-inner-column.pbmit-elementor-bg-color-blackish.pbmit-bgimage-yes > .elementor-widget-wrap:before{
+	background-color: rgba( var(--pbmit-xcare-blackish-color-rgb) , 0.60 );
+}
+/*====== End --- Row Colum - Blackish BG Color ======*/
+
+/* --------------------------------------
+ * Row Colum - White BG Color
+ * ---------------------------------------*/
+/*--- First RoW BG ---*/
+.elementor-section.elementor-top-section.pbmit-elementor-bg-color-white,
+.elementor-section.elementor-top-section.pbmit-elementor-bg-color-white:before,
+
+/*--- Second RoW BG ---*/
+.elementor-section.elementor-inner-section.pbmit-elementor-bg-color-white{
+	background-color: var(--pbmit-xcare-white-color);
+}
+
+/*--- First Colum BG - ---*/
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-white:not(.pbmit-bgimage-yes) .elementor-widget-wrap > .pbmit-stretched-div,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-white.pbmit-bg-image-over-color .elementor-widget-wrap > .pbmit-stretched-div,
+
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-white:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-white.pbmit-bg-image-over-color:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap,
+
+/*--- Second RoW BG ---*/
+.elementor-section.elementor-inner-section.pbmit-elementor-bg-color-white.pbmit-bg-image-over-color:before,
+
+/*--- Second Colum BG - ---*/
+.elementor-column.elementor-inner-column.pbmit-elementor-bg-color-white:not(.pbmit-bgimage-yes) > .elementor-widget-wrap,
+.elementor-column.elementor-inner-column.pbmit-elementor-bg-color-white.pbmit-bg-image-over-color > .elementor-widget-wrap{
+	background-color: var(--pbmit-xcare-white-color) !important;
+}
+
+/*--- First RoW BG - with image ---*/
+.elementor-section.elementor-top-section.pbmit-elementor-bg-color-white.pbmit-bgimage-yes:before,
+
+/*--- First Colum BG - with image ---*/
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-white.pbmit-bgimage-yes:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap:before,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-white.pbmit-bgimage-yes:not(.pbmit-bg-image-over-color) .elementor-widget-wrap .pbmit-stretched-div:before,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-white .elementor-widget-wrap .pbmit-bgimage-yes.pbmit-stretched-div:before,
+
+/*--- Second RoW BG ---*/
+.elementor-section.elementor-inner-section.pbmit-elementor-bg-color-white.pbmit-bg-color-over-image:before,
+
+/*--- Second Colum BG - with image ---*/
+.elementor-column.elementor-inner-column.pbmit-elementor-bg-color-white.pbmit-bgimage-yes > .elementor-widget-wrap:before{
+	background-color: rgba( var(--pbmit-xcare-white-color-rgb) , 0.60 );
+}
+/*====== End --- Row Colum - White BG Color ======*/
+
+/* --------------------------------------
+ * Row Colum - Gradient BG Color
+ * ---------------------------------------*/
+
+/*--- First RoW BG - with image ---*/
+.elementor-section.elementor-top-section.pbmit-elementor-bg-color-gradient.pbmit-bgimage-yes:before,
+
+/*--- First RoW BG ---*/
+.elementor-section.elementor-top-section.pbmit-elementor-bg-color-gradient:before,
+
+/*--- First Colum BG - with image ---*/
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-gradient.pbmit-bg-image-over-color .pbmit-stretched-div,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-gradient.pbmit-bg-image-over-color:not(.pbmit-col-stretched-yes) .elementor-widget-wrap,
+
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-gradient.pbmit-bgimage-yes:not(.pbmit-col-stretched-yes) .elementor-widget-wrap:before,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-gradient.pbmit-bgimage-yes .pbmit-stretched-div:before,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-gradient .pbmit-bgimage-yes.pbmit-stretched-div:before,
+
+/*--- Second RoW BG - with image ---*/
+.elementor-section.elementor-inner-section.pbmit-elementor-bg-color-gradient.pbmit-bgimage-yes:before,
+
+/*--- Second RoW BG ---*/
+.elementor-section.elementor-inner-section.pbmit-elementor-bg-color-gradient:before,
+
+/*--- Second Colum BG - with image ---*/
+.elementor-column.elementor-inner-column.pbmit-elementor-bg-color-gradient.pbmit-bg-image-over-color .elementor-widget-wrap,
+.elementor-column.elementor-inner-column.pbmit-elementor-bg-color-gradient.pbmit-bgimage-yes .elementor-widget-wrap:before{
+	background-image: -ms-linear-gradient(right, var(--pbmit-xcare-gradient-color-first) 0%, var(--pbmit-xcare-gradient-color-last) 100%);
+	background-image: linear-gradient(to right, var(--pbmit-xcare-gradient-color-first) , var(--pbmit-xcare-gradient-color-last) );
+}
+
+/*--- First Colum BG - ---*/
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-gradient .elementor-widget-wrap:before,
+
+.elementor-column.elementor-inner-column.pbmit-elementor-bg-color-gradient:not(.pbmit-bgimage-yes) .pbmit-stretched-div{
+	background-image: -ms-linear-gradient(right, var(--pbmit-xcare-gradient-color-first) 0%, var(--pbmit-xcare-gradient-color-last) 100%) !important;
+	background-image: linear-gradient(to right, var(--pbmit-xcare-gradient-color-first) , var(--pbmit-xcare-gradient-color-last) ) !important;
+}
+
+/*--- First RoW BG - with image ---*/
+.elementor-section.elementor-top-section.pbmit-elementor-bg-color-gradient.pbmit-bgimage-yes:before,
+
+/*--- First Colum BG - with image ---*/
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-gradient.pbmit-bgimage-yes:not(.pbmit-col-stretched-yes) .elementor-widget-wrap:before,
+.elementor-column.elementor-top-column.pbmit-elementor-bg-color-gradient.pbmit-bgimage-yes .pbmit-stretched-div:before,
+
+/*--- Second RoW BG - with image ---*/
+.elementor-section.elementor-inner-section.pbmit-elementor-bg-color-gradient.pbmit-bgimage-yes:before,
+
+/*--- Second Colum BG - with image ---*/
+.elementor-column.elementor-inner-column.pbmit-elementor-bg-color-gradient.pbmit-bgimage-yes .elementor-widget-wrap:before{
+	opacity: 0.5;
+}
+
+/*====== End --- Row Colum - Gradient BG Color ======*/
+
+/*========================================== Base Css ==========================================*/
+
+/*============================================ Remove this code =====================================================*/
+
+/*========================================== Row / Colum Background Base Css ==========================================*/
+
+.elementor-section.elementor-top-section.pbmit-bg-image-over-color.pbmit-bgimage-yes:before,
+.elementor-column.elementor-top-column.pbmit-bgimage-yes.pbmit-bg-image-over-color > .pbmit-stretched-div:before,
+
+.elementor-column.elementor-top-column.pbmit-bg-image-over-color > .elementor-widget-wrap:before,
+.elementor-column.elementor-inner-column.pbmit-bg-image-over-color > .elementor-widget-wrap:before{
+	background-color: transparent !important;
+}
+
+/*====== Row Colum - Global BG Color ======*/
+/*--- First RoW BG ---*/
+.elementor-section.elementor-top-section.pbmit-bg-color-globalcolor:before{
+	background-color: var(--pbmit-xcare-global-color);
+}
+
+/*--- First Colum BG - ---*/
+.elementor-column.elementor-top-column.pbmit-bg-color-globalcolor.pbmit-bg-image-over-color > .pbmit-stretched-div,
+.elementor-column.elementor-top-column.pbmit-bg-color-globalcolor.pbmit-bg-image-over-color:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap,
+.elementor-column.elementor-top-column.pbmit-bg-color-globalcolor:not(.pbmit-bgimage-yes) > .pbmit-stretched-div,
+
+/*--- Second Colum BG - ---*/
+.elementor-column.elementor-inner-column.pbmit-bg-color-globalcolor.pbmit-bg-image-over-color > .elementor-widget-wrap{
+	background-color: var(--pbmit-xcare-global-color) !important;
+}
+
+/*--- First RoW BG - with image ---*/
+.elementor-section.elementor-top-section.pbmit-bg-color-globalcolor.pbmit-bgimage-yes:before,
+
+/*--- First Colum BG - with image ---*/
+.elementor-column.elementor-top-column.pbmit-bg-color-globalcolor.pbmit-bgimage-yes:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap:before,
+.elementor-column.elementor-top-column.pbmit-bg-color-globalcolor.pbmit-bgimage-yes > .pbmit-stretched-div:before,
+.elementor-column.elementor-top-column.pbmit-bg-color-globalcolor > .pbmit-bgimage-yes.pbmit-stretched-div:before,
+
+/*--- Second Colum BG - with image ---*/
+.elementor-column.elementor-inner-column.pbmit-bg-color-globalcolor.pbmit-bgimage-yes > .elementor-widget-wrap:before{
+	background-color: rgba( var(--pbmit-xcare-global-color-rgb) , 0.95 );
+}
+
+/*====== End --- Row Colum - Global BG Color ======*/
+
+/*====== Row Colum - Light BG Color ======*/
+/*--- First RoW BG ---*/
+.elementor-section.elementor-top-section.pbmit-bg-color-light:before{
+	background-color: var(--pbmit-xcare-light-bg-color);
+}
+
+/*--- First Colum BG - ---*/
+.elementor-column.elementor-top-column.pbmit-bg-color-light.pbmit-bg-image-over-color > .pbmit-stretched-div,
+.elementor-column.elementor-top-column.pbmit-bg-color-light.pbmit-bg-image-over-color:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap,
+.elementor-column.elementor-top-column.pbmit-bg-color-light:not(.pbmit-bgimage-yes) > .pbmit-stretched-div,
+
+/*--- Second Colum BG - ---*/
+.elementor-column.elementor-inner-column.pbmit-bg-color-light.pbmit-bg-image-over-color > .elementor-widget-wrap{
+	background-color: var(--pbmit-xcare-light-bg-color) !important;
+}
+
+/*--- First RoW BG - with image ---*/
+.elementor-section.elementor-top-section.pbmit-bg-color-light.pbmit-bgimage-yes:before,
+
+/*--- First Colum BG - with image ---*/
+.elementor-column.elementor-top-column.pbmit-bg-color-light.pbmit-bgimage-yes:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap:before,
+.elementor-column.elementor-top-column.pbmit-bg-color-light.pbmit-bgimage-yes > .pbmit-stretched-div:before,
+.elementor-column.elementor-top-column.pbmit-bg-color-light > .pbmit-bgimage-yes.pbmit-stretched-div:before,
+
+/*--- Second Colum BG - with image ---*/
+.elementor-column.elementor-inner-column.pbmit-bg-color-light.pbmit-bgimage-yes > .elementor-widget-wrap:before{
+	background-color: rgba( var(--pbmit-xcare-light-bg-color-rgb) , 0.95 );
+}
+
+/*====== End --- Row Colum - Light BG Color ======*/
+
+/*====== Row Colum - Secondary BG Color ======*/
+/*--- First RoW BG ---*/
+.elementor-section.elementor-top-section.pbmit-bg-color-secondary:before{
+	background-color: var(--pbmit-xcare-secondary-color);
+}
+
+/*--- First Colum BG - ---*/
+.elementor-column.elementor-top-column.pbmit-bg-color-secondary.pbmit-bg-image-over-color > .pbmit-stretched-div,
+.elementor-column.elementor-top-column.pbmit-bg-color-secondary.pbmit-bg-image-over-color:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap,
+.elementor-column.elementor-top-column.pbmit-bg-color-secondary:not(.pbmit-bgimage-yes) > .pbmit-stretched-div,
+
+/*--- Second Colum BG - ---*/
+.elementor-column.elementor-inner-column.pbmit-bg-color-secondary.pbmit-bg-image-over-color > .elementor-widget-wrap{
+	background-color: var(--pbmit-xcare-secondary-color) !important;
+}
+
+/*--- First RoW BG - with image ---*/
+.elementor-section.elementor-top-section.pbmit-bg-color-secondary.pbmit-bgimage-yes:before,
+
+/*--- First Colum BG - with image ---*/
+.elementor-column.elementor-top-column.pbmit-bg-color-secondary.pbmit-bgimage-yes:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap:before,
+.elementor-column.elementor-top-column.pbmit-bg-color-secondary.pbmit-bgimage-yes > .pbmit-stretched-div:before,
+.elementor-column.elementor-top-column.pbmit-bg-color-secondary > .pbmit-bgimage-yes.pbmit-stretched-div:before,
+
+/*--- Second Colum BG - with image ---*/
+.elementor-column.elementor-inner-column.pbmit-bg-color-secondary.pbmit-bgimage-yes > .elementor-widget-wrap:before{
+	background-color: rgba( var(--pbmit-xcare-secondary-color-rgb) , 0.95 );
+}
+
+/*====== End --- Row Colum - Light BG Color ======*/
+
+/*====== Row Colum - Blackish BG Color ======*/
+/*--- First RoW BG ---*/
+.elementor-section.elementor-top-section.pbmit-bg-color-blackish:before{
+	background-color: var(--pbmit-xcare-blackish-bg-color);
+}
+
+/*--- First Colum BG - ---*/
+.elementor-column.elementor-top-column.pbmit-bg-color-blackish.pbmit-bg-image-over-color > .pbmit-stretched-div,
+.elementor-column.elementor-top-column.pbmit-bg-color-blackish.pbmit-bg-image-over-color:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap,
+.elementor-column.elementor-top-column.pbmit-bg-color-blackish:not(.pbmit-bgimage-yes) > .pbmit-stretched-div,
+
+/*--- Second Colum BG - ---*/
+.elementor-column.elementor-inner-column.pbmit-bg-color-blackish.pbmit-bg-image-over-color > .elementor-widget-wrap{
+	background-color: var(--pbmit-xcare-blackish-bg-color) !important;
+}
+
+/*--- First RoW BG - with image ---*/
+.elementor-section.elementor-top-section.pbmit-bg-color-blackish.pbmit-bgimage-yes:before,
+
+/*--- First Colum BG - with image ---*/
+.elementor-column.elementor-top-column.pbmit-bg-color-blackish.pbmit-bgimage-yes:not(.pbmit-col-stretched-yes) .elementor-widget-wrap:before,
+.elementor-column.elementor-top-column.pbmit-bg-color-blackish.pbmit-bgimage-yes  .pbmit-stretched-div:before,
+.elementor-column.elementor-top-column.pbmit-bg-color-blackish  .pbmit-bgimage-yes.pbmit-stretched-div:before,
+
+/*--- Second Colum BG - with image ---*/
+.elementor-column.elementor-inner-column.pbmit-bg-color-blackish.pbmit-bgimage-yes > .elementor-widget-wrap:before{
+	background-color: rgba( var(--pbmit-xcare-blackish-color-rgb) , 0.95 );
+}
+/*====== End --- Row Colum - Blackish BG Color ======*/
+
+/*====== Row Colum - White BG Color ======*/
+/*--- First RoW BG ---*/
+.elementor-section.elementor-top-section.pbmit-bg-color-white:before{
+	background-color: var(--pbmit-xcare-white-color);
+}
+
+/*--- First Colum BG - ---*/
+.elementor-column.elementor-top-column.pbmit-bg-color-white.pbmit-bg-image-over-color > .pbmit-stretched-div,
+.elementor-column.elementor-top-column.pbmit-bg-color-white.pbmit-bg-image-over-color:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap,
+.elementor-column.elementor-top-column.pbmit-bg-color-white:not(.pbmit-bgimage-yes) > .pbmit-stretched-div,
+
+/*--- Second Colum BG - ---*/
+.elementor-column.elementor-inner-column.pbmit-bg-color-white.pbmit-bg-image-over-color > .elementor-widget-wrap{
+	background-color: var(--pbmit-xcare-white-color) !important;
+}
+
+/*--- First RoW BG - with image ---*/
+.elementor-section.elementor-top-section.pbmit-bg-color-white.pbmit-bgimage-yes:before,
+
+/*--- First Colum BG - with image ---*/
+.elementor-column.elementor-top-column.pbmit-bg-color-white.pbmit-bgimage-yes:not(.pbmit-col-stretched-yes) > .elementor-widget-wrap:before,
+.elementor-column.elementor-top-column.pbmit-bg-color-white.pbmit-bgimage-yes > .pbmit-stretched-div:before,
+.elementor-column.elementor-top-column.pbmit-bg-color-white > .pbmit-bgimage-yes.pbmit-stretched-div:before,
+
+/*--- Second Colum BG - with image ---*/
+.elementor-column.elementor-inner-column.pbmit-bg-color-white.pbmit-bgimage-yes > .elementor-widget-wrap:before{
+	background-color: rgba( var(--pbmit-xcare-white-color-rgb) , 0.95 );
+}
+/*====== End --- Row Colum - White BG Color ======*/
+
+/*====== Row Colum - Gradient BG Color ======*/
+
+/*--- First RoW BG - with image ---*/
+.elementor-section.elementor-top-section.pbmit-bg-color-gradient.pbmit-bgimage-yes:before,
+
+/*--- First RoW BG ---*/
+.elementor-section.elementor-top-section.pbmit-bg-color-gradient:before,
+
+/*--- First Colum BG - with image ---*/
+.elementor-column.elementor-top-column.pbmit-bg-color-gradient.pbmit-bg-image-over-color .pbmit-stretched-div,
+.elementor-column.elementor-top-column.pbmit-bg-color-gradient.pbmit-bg-image-over-color:not(.pbmit-col-stretched-yes) .elementor-widget-wrap,
+
+.elementor-column.elementor-top-column.pbmit-bg-color-gradient.pbmit-bgimage-yes:not(.pbmit-col-stretched-yes) .elementor-widget-wrap:before,
+.elementor-column.elementor-top-column.pbmit-bg-color-gradient.pbmit-bgimage-yes .pbmit-stretched-div:before,
+.elementor-column.elementor-top-column.pbmit-bg-color-gradient .pbmit-bgimage-yes.pbmit-stretched-div:before,
+
+/*--- Second RoW BG - with image ---*/
+.elementor-section.elementor-inner-section.pbmit-bg-color-gradient.pbmit-bgimage-yes:before,
+
+/*--- Second RoW BG ---*/
+.elementor-section.elementor-inner-section.pbmit-bg-color-gradient:before,
+
+/*--- Second Colum BG - with image ---*/
+.elementor-column.elementor-inner-column.pbmit-bg-color-gradient.pbmit-bg-image-over-color .elementor-widget-wrap,
+.elementor-column.elementor-inner-column.pbmit-bg-color-gradient.pbmit-bgimage-yes .elementor-widget-wrap:before{
+	background-image: -ms-linear-gradient(right, var(--pbmit-xcare-gradient-color-first) 0%, var(--pbmit-xcare-gradient-color-last) 100%);
+	background-image: linear-gradient(to right, var(--pbmit-xcare-gradient-color-first) , var(--pbmit-xcare-gradient-color-last) );
+}
+
+/*--- First Colum BG - ---*/
+.elementor-column.elementor-inner-column.pbmit-bg-color-gradient:not(.pbmit-bgimage-yes) .pbmit-stretched-div{
+	background-image: -ms-linear-gradient(right, var(--pbmit-xcare-gradient-color-first) 0%, var(--pbmit-xcare-gradient-color-last) 100%) !important;
+	background-image: linear-gradient(to right, var(--pbmit-xcare-gradient-color-first) , var(--pbmit-xcare-gradient-color-last) ) !important;
+}
+
+/*--- First RoW BG - with image ---*/
+.elementor-section.elementor-top-section.pbmit-bg-color-gradient.pbmit-bgimage-yes:before,
+
+/*--- First Colum BG - with image ---*/
+.elementor-column.elementor-top-column.pbmit-bg-color-gradient.pbmit-bgimage-yes:not(.pbmit-col-stretched-yes) .elementor-widget-wrap:before,
+.elementor-column.elementor-top-column.pbmit-bg-color-gradient.pbmit-bgimage-yes .pbmit-stretched-div:before,
+
+/*--- Second RoW BG - with image ---*/
+.elementor-section.elementor-inner-section.pbmit-bg-color-gradient.pbmit-bgimage-yes:before,
+
+/*--- Second Colum BG - with image ---*/
+.elementor-column.elementor-inner-column.pbmit-bg-color-gradient.pbmit-bgimage-yes .elementor-widget-wrap:before{
+	opacity: 0.5;
+}
+/*====== End --- Row Colum - Gradient BG Color ======*/
+

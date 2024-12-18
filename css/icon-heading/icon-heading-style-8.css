@@ -1,0 +1,92 @@
+.pbmit-ihbox-style-8,
+.pbmit-ihbox-style-8 .pbmit-icon-type-icon,
+.pbmit-ihbox-style-8 .pbmit-ihbox-icon-type-text,
+.pbmit-ihbox-style-8 .pbmit-element-title,
+.pbmit-ihbox-style-8 .pbmit-heading-desc,
+.pbmit-ihbox-icon::before{
+	transition: all 0.3s ease-in;
+}
+.pbmit-ihbox-style-8 .pbmit-element-title{
+	font-size: 17px;
+	line-height: 24px;
+	margin-bottom: 0;
+}
+.pbmit-ihbox-style-8 .pbmit-element-subtitle{
+	font-size: 15px;
+	line-height: 22px;
+	margin-bottom: 10px;
+}
+.pbmit-ihbox-style-8 .pbmit-element-title span{
+	border-bottom: 1px solid var(--pbmit-xcare-blackish-color);
+	font-weight: 600;
+}
+.pbmit-ihbox-style-8 .pbmit-content-wrapper{
+	margin-top: 20px;
+}
+.pbmit-ihbox-style-8 .pbmit-icon-type-icon,
+.pbmit-ihbox-style-8 .pbmit-ihbox-icon-type-text{
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+.pbmit-ihbox-style-8 .pbmit-ihbox-btn{
+	margin-top: 18px;
+	margin-bottom: 11px;
+}
+.pbmit-ihbox-style-8 .pbmit-ihbox-btn a{
+	display: inline-block;
+	padding: 18px 35px;
+	color: var(--pbmit-xcare-white-color);
+	background-color: var(--pbmit-xcare-global-color);
+	border-radius: 30px;
+	transition: all .4s ease-in;
+}
+.pbmit-ihbox-style-8 .pbmit-ihbox-btn a:hover{
+	background-color: var(--pbmit-xcare-blackish-color);
+}
+.pbmit-ihbox-style-8 .pbmit-ihbox-btn .pbmit-button-icon-wrapper{
+	position: relative;
+	overflow: hidden;
+	display: inline-flex;
+	margin-left: 6px;
+}
+.pbmit-ihbox-style-8 .pbmit-ihbox-btn .pbmit-button-icon-wrapper::before{
+	content: "\e8dd";
+	font-family: "pbminfotech-base-icons";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 1em;
+	height: auto;
+	transform: scale(0.26) translate(-55px, 50px);
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out ;
+}
+.pbmit-ihbox-style-8 .pbmit-ihbox-btn:hover .pbmit-button-icon-wrapper::before{
+	transform: scale(1) translate(-2px, 0px);
+}
+.pbmit-ihbox-style-8 .pbmit-ihbox-btn .pbmit-button-icon{
+	display: inline-block;
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+.pbmit-ihbox-style-8 .pbmit-ihbox-btn:hover .pbmit-button-icon{
+	transform: scale(0.26) translate(45px, -50px);
+}
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-8 .pbmit-ihbox-btn a,
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-8 .pbmit-ihbox-btn a{
+	background-color: var(--pbmit-xcare-white-color);
+	color: var(--pbmit-xcare-blackish-color);
+}
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-8 .pbmit-content-wrapper .pbmit-ihbox-btn a:hover{
+	background-color: var(--pbmit-xcare-secondary-color);
+}
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-8 .pbmit-element-title a,
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-8 .pbmit-element-subtitle a{
+	color: var(--pbmit-xcare-white-color);
+}
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-8 .pbmit-element-title a:hover,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-8 .pbmit-element-title a:hover,
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-8 .pbmit-element-title a:hover,
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-8 .pbmit-element-subtitle a:hover,
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-8 .pbmit-element-subtitle a:hover,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-8 .pbmit-element-subtitle a:hover{
+	color: var(--pbmit-xcare-secondary-color);
+}

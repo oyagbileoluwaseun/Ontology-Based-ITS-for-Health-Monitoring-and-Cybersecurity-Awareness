@@ -1,0 +1,196 @@
+.pbmit-ihbox-style-29{
+	position: relative;
+	z-index: 1;
+}
+.pbmit-ihbox-style-29 .pbmit-ihbox-icon,
+.pbmit-ihbox-style-29 .pbmit-ihbox-svg{
+	margin-bottom: 28px;
+}
+.pbmit-ihbox-style-29 .pbmit-ihbox-icon::before,
+.pbmit-ihbox-style-29 .pbmit-ihbox-svg::before{
+	content: '';
+	position: relative;
+	top: 50px;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 1px;
+	z-index: -1;
+	background-color: rgba(var(--pbmit-xcare-blackish-bg-color-rgb), 0.5);
+}
+.pbmit-ihbox-style-29 .pbmit-ihbox-icon::before,
+.pbmit-ihbox-style-29 .pbmit-ihbox-svg::before{
+	display: none;
+}
+.pbmit-text-color-white .pbmit-ihbox-style-29 .pbmit-ihbox-svg::before,
+.pbmit-text-color-white .pbmit-ihbox-style-29 .pbmit-ihbox-icon::before{
+	background-color: rgba(var(--pbmit-xcare-white-color-rgb), 0.5);
+}
+.elementor-inner-section > .elementor-container > .elementor-inner-column:not(:last-child) .pbmit-ihbox-style-29 .pbmit-ihbox-icon::before,
+.elementor-inner-section > .elementor-container > .elementor-inner-column:not(:last-child) .pbmit-ihbox-style-29 .pbmit-ihbox-svg::before,
+.elementor-top-section > .elementor-container > .elementor-top-column:not(:last-child) .pbmit-ihbox-style-29 .pbmit-ihbox-icon::before,
+.elementor-top-section > .elementor-container > .elementor-top-column:not(:last-child) .pbmit-ihbox-style-29 .pbmit-ihbox-svg::before,
+.pbmit-element-miconheading-style-29 .pbmit-ele:not(:last-child) .pbmit-ihbox-style-29 .pbmit-ihbox-icon::before,
+.pbmit-element-miconheading-style-29 .pbmit-ele:not(:last-child) .pbmit-ihbox-style-29 .pbmit-ihbox-svg::before{
+	display: block;
+}
+.pbmit-element-miconheading-style-29 .pbmit-element-posts-wrapper.row{
+	margin: 0;
+}
+.pbmit-element-miconheading-style-29 .pbmit-element-posts-wrapper.row .pbmit-ele{
+	padding: 0;
+}
+.pbmit-ihbox-style-29 .pbmit-ihbox-icon-wrapper,
+.pbmit-ihbox-style-29 .pbmit-ihbox-svg-wrapper{
+	border-radius: 50%;
+	height: 90px;
+	width: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--pbmit-xcare-global-color);
+	background-color: var(--pbmit-xcare-white-color);
+}
+.pbmit-ihbox-style-29 .pbmit-ihbox-icon .pbmit-ihbox-icon-wrapper svg,
+.pbmit-ihbox-style-29 .pbmit-ihbox-svg-wrapper svg{
+	fill: var(--pbmit-xcare-global-color);
+}
+.pbmit-ihbox-style-29 .pbmit-ihbox-icon .pbmit-ihbox-icon-wrapper.pbmit-ihbox-icon-type-image{
+	background-color: transparent;
+}
+.pbmit-ihbox-style-29 .pbmit-ihbox-icon-type-image img{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+}
+.pbmit-ihbox-style-29 .pbmit-icon-type-icon{
+	font-size: 40px;
+	line-height: 40px;
+}
+.pbmit-ihbox-style-29 i.pbmit-xcare-icon{
+	margin-top: 10px;
+}
+.pbmit-ihbox-style-29 .pbmit-element-title{
+	font-size: 24px;
+	line-height: 34px;
+	margin-bottom: 10px;
+}
+.pbmit-ihbox-style-29 .pbmit-element-subtitle{
+	font-size: 15px;
+	line-height: 22px;
+	margin-bottom: 5px;
+}
+.pbmit-ihbox-style-29 .pbmit-ihbox-icon-type-text{
+	font-size: 24px;
+}
+.pbmit-ihbox-style-29 .pbmit-ihbox-box-number{
+	position: absolute;
+	top: 23px;
+	left: 75px;
+	width: 30px;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 50%;
+	color: var(--pbmit-xcare-white-color);
+	background-color: var(--pbmit-xcare-blackish-bg-color);
+	transition: all 0.4s ease-in;
+}
+.rtl .pbmit-ihbox-style-29 .pbmit-ihbox-box-number{
+	left: inherit;
+	right: 75px;
+}
+.pbmit-ihbox-style-29:hover .pbmit-ihbox-box-number{
+	background-color: var(--pbmit-xcare-secondary-color);
+}
+.pbmit-ihbox-style-29 .pbmit-ihbox-contents{
+	padding: 0 15px;
+}
+.pbmit-ihbox-style-29 .pbmit-ihbox-btn{
+	margin-top: 15px;
+	display: inline-block;
+}
+.pbmit-ihbox-style-29 .pbmit-ihbox-btn a{
+	display: inline-block;
+	padding: 18px 35px;
+	border: 1px solid var(--pbmit-xcare-blackish-color);
+	color: var(--pbmit-xcare-blackish-color);
+	background-color: transparent;
+	border-radius: 30px;
+	transition: all .4s ease-in;
+}
+.pbmit-ihbox-style-29 .pbmit-ihbox-btn a:hover{
+	background-color: var(--pbmit-xcare-blackish-color);
+	color: var(--pbmit-xcare-white-color);
+}
+.pbmit-ihbox-style-29 .pbmit-ihbox-btn .pbmit-button-icon-wrapper{
+	position: relative;
+	overflow: hidden;
+	display: inline-flex;
+	margin-left: 6px;
+}
+.rtl .pbmit-ihbox-style-29 .pbmit-ihbox-btn .pbmit-button-icon-wrapper{
+	margin: 0 6px 0 0;
+	-webkit-transform: scaleX(-1);
+	-ms-transform: scaleX(-1);
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+.pbmit-ihbox-style-29 .pbmit-ihbox-btn .pbmit-button-icon-wrapper::before{
+	content: "\e8dd";
+	font-family: "pbminfotech-base-icons";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 1em;
+	height: auto;
+	transform: scale(0.26) translate(-52px, 50px);
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+.pbmit-ihbox-style-29 .pbmit-ihbox-btn:hover .pbmit-button-icon-wrapper::before{
+	transform: scale(1) translate(-2px, 0px);
+}
+.pbmit-ihbox-style-29 .pbmit-ihbox-btn .pbmit-button-icon{
+	display: inline-block;
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+.pbmit-ihbox-style-29 .pbmit-ihbox-btn:hover .pbmit-button-icon{
+	transform: scale(0.26) translate(45px, -50px);
+}
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-29 .pbmit-ihbox-btn a,
+.pbmit-text-color-white .pbmit-ihbox-style-29 .pbmit-ihbox-btn a{
+	border: 1px solid var(--pbmit-xcare-white-color);
+	color: var(--pbmit-xcare-white-color);
+}
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-29 .pbmit-ihbox-btn a:hover,
+.pbmit-text-color-white .pbmit-ihbox-style-29 .pbmit-ihbox-btn a:hover{
+	background-color: var(--pbmit-xcare-white-color);
+	border-color: var(--pbmit-xcare-white-color);
+	color: var(--pbmit-xcare-blackish-color);
+}
+/* == For bg color == */
+.pbmit-elementor-bg-color-white .pbmit-ihbox-style-29 .pbmit-ihbox-svg-wrapper,
+.pbmit-elementor-bg-color-white .pbmit-ihbox-style-29 .pbmit-ihbox-icon-wrapper{
+	background-color: var(--pbmit-xcare-light-bg-color);
+}
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-29 .pbmit-element-subtitle a,
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-29 .pbmit-element-title a{
+	color: var(--pbmit-xcare-white-color);
+}
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-29 .pbmit-element-subtitle a:hover,
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-29 .pbmit-element-subtitle a:hover,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-29 .pbmit-element-title a:hover,
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-29 .pbmit-element-subtitle a:hover,
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-29 .pbmit-element-title a:hover,
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-29 .pbmit-element-title a:hover{
+	color: var(--pbmit-xcare-secondary-color);
+}
+/* Responsive */
+@media(max-width: 767px){
+	.pbmit-ihbox-style-29 .pbmit-ihbox-icon::before,
+	.pbmit-ihbox-style-29 .pbmit-ihbox-svg::before{
+		display: none !important;
+	}
+}

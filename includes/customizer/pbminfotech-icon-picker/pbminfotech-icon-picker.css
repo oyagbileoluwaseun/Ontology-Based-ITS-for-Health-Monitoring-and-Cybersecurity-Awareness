@@ -1,0 +1,66 @@
+.pbminfotech-select-icon-library-wrapper {
+	padding-bottom: 5px;
+}
+.pbminfotech-icon-picker-ele-w {
+	height: 50px;
+	background: white;
+	border: 2px solid #dedede;
+	width: 115px;
+}
+.pbminfotech-icon-picker-ele-icon {
+	height: 40px;
+	float: left;
+	width: 65px;
+	text-align: center;
+	padding: 5px;
+}
+.pbminfotech-icon-picker-ele-icon i{
+	font-size: 35px;
+	line-height: 35px;
+}
+.pbminfotech-icon-picker-ele-arrow {
+	float: right;
+	width: 30px;
+	background: #dedede;
+	height: 46px;
+	padding: 5px;
+	text-align: center;
+	padding-top: 11px;
+	cursor: pointer;
+}
+.pbminfotech-icon-picker-ele-arrow i{
+	font-size: 20px;
+}
+ul.pbmit-icon-picker-list li {
+	float: left;
+	border: 1px solid #d4d4d4;
+	margin: 2px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 20px;
+}
+ul.pbmit-icon-picker-list li a{
+	width: 29px;
+	height: 29px;
+	padding: 5px;
+	display: block;
+	text-align:center;
+	color: black;
+	background: #f1f1f1;
+}
+ul.pbmit-icon-picker-list li a:hover{
+	background: #ffffff;
+	color: #0073aa;
+}
+li.pbminfotech-active-icon a {
+	color: #0073aa !important;
+}
+.pbminfotech-icon-picker-list-w{
+	display: block;
+	overflow: auto;
+	max-height: 250px;
+	padding: 5px;
+	background: white;
+	border: 1px solid #d2d2d2;
+}
+

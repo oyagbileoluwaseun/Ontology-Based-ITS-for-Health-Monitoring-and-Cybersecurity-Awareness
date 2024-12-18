@@ -1,0 +1,308 @@
+.pbminfotech-ele-ptable-style-1 .pbmit-ptable-col .pbmit-pricing-table-box,
+.pbminfotech-ele-ptable-style-1 .pbmit-ptable-col:hover .pbmit-head-wrap::before{
+	transition: all 0.6s ease-in-out;
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-head-wrap{
+	position: relative;
+	padding-bottom: 28px;
+	border-bottom: 1px solid rgba(var(--pbmit-xcare-blackish-color-rgb), 0.1);
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-ptable-col .pbmit-head-wrap::before{
+	content: "";
+	position: absolute;
+	background-color: var(--pbmit-xcare-global-color);
+	width: 0%;
+	height: 1px;
+	bottom: 0;
+	left: 0;
+}
+.rtl .pbminfotech-ele-ptable-style-1 .pbmit-ptable-col .pbmit-head-wrap::before{
+	left: inherit;
+	right: 0;
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-ptable-col:hover .pbmit-head-wrap::before{
+	width: 100%;
+}
+.pbminfotech-ele-ptable-style-1 .pbminfotech-ptable-desc{
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 0.6px;
+	text-transform: uppercase;
+}
+.pbminfotech-ele-ptable-style-1 .pbminfotech-ptable-heading{
+	font-size: 28px;
+	line-height: 36px;
+	text-transform: capitalize;
+	color: var(--pbmit-xcare-blackish-color);
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-price-wrapper{
+	display: flex;
+	align-items: flex-end;
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-pricing-table-box{
+	background-color: var(--pbmit-xcare-white-color);
+	position: relative;
+	padding: 45px 54px;
+	border-radius: 30px;
+}
+.pbminfotech-ele-ptable-style-1 .pbminfotech-ptable-symbol{
+	font-size: 35px;
+	line-height: 40px;
+}
+.pbminfotech-ele-ptable-style-1 .pbminfotech-ptable-price{
+	font-size: 60px;
+	line-height: 60px;
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-ptable-price-w{
+	display: flex;
+	align-items: flex-start;
+	color: var(--pbmit-xcare-global-color);
+}
+.pbminfotech-ele-ptable-style-1 .pbminfotech-ptable-frequency{
+	color: var(--pbmit-xcare-blackish-color);
+	font-size: 14px;
+	line-height: 22px;
+	margin-bottom: 8px;
+	padding-left: 8px;
+	text-transform: lowercase;
+	color: rgba(var(--pbmit-xcare-blackish-color-rgb), 0.7);
+	position: relative;
+}
+.rtl .pbminfotech-ele-ptable-style-1 .pbminfotech-ptable-frequency{
+	padding: 0 8px 0 0;
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-ptable-inner{
+	padding: 32px 0 15px;
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-ptable-line{
+	margin-bottom: 16px;
+	position: relative;
+	padding-left: 35px;
+}
+.rtl .pbminfotech-ele-ptable-style-1 .pbmit-ptable-line{
+	padding: 0  35px 0 0;
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-ptable-line:last-child{
+	margin-bottom: 0;
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-ptable-line svg,
+.pbminfotech-ele-ptable-style-1 .pbmit-ptable-line .pbmit-ptable-line-svg,
+.pbminfotech-ele-ptable-style-1 .pbmit-ptable-line i{
+	font-size: 18px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translate(0,-50%);
+	color: var(--pbmit-xcare-global-color);
+}
+.rtl .pbminfotech-ele-ptable-style-1 .pbmit-ptable-line svg,
+.rtl .pbminfotech-ele-ptable-style-1 .pbmit-ptable-line .pbmit-ptable-line-svg,
+.rtl .pbminfotech-ele-ptable-style-1 .pbmit-ptable-line i{
+	left: inherit;
+	right: 0;
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-ptable-line .pbmit-ptable-line-svg{
+	display: inline-block;
+	margin-right: 5px;
+}
+.rtl .pbminfotech-ele-ptable-style-1 .pbmit-ptable-line .pbmit-ptable-line-svg{
+	margin: 0 0 0 5px;
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-ptable-line svg{
+	width: 15px;
+	height: 15px;
+	margin: 0 15px 0 0;
+	fill: var(--pbmit-xcare-global-color);
+}
+.rtl .pbminfotech-ele-ptable-style-1 .pbmit-ptable-line svg{
+	margin: 0 0 0 15px;
+}
+.pbminfotech-ele-ptable-style-1 .pbminfotech-ptable-btn{
+	text-align: center;
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-btn{
+	padding-top: 32px;
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-btn a{
+	font-size: 13px;
+	line-height: 23px;
+	letter-spacing: 0.65px;
+	display: block;
+	text-transform: uppercase;
+	padding: 17px 15px;
+	border: 1px solid var(--pbmit-xcare-blackish-color);
+	color: var(--pbmit-xcare-blackish-color);
+	background-color: transparent;
+	border-radius: 30px;
+	transition: all .4s ease-in;
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-btn a .pbmit-button-icon-wrapper{
+	position: relative;
+	overflow: hidden;
+	margin-left: 8px;
+	display: inline-flex;
+}
+.rtl .pbminfotech-ele-ptable-style-1 .pbmit-btn a .pbmit-button-icon-wrapper{
+	margin: 0 8px 0 0;
+	-webkit-transform: scaleX(-1);
+	-ms-transform: scaleX(-1);
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-btn a .pbmit-button-icon-wrapper::before{
+	content: "\e8dd";
+	font-family: "pbminfotech-base-icons";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 1em;
+	height: auto;
+	transform: scale(0.26) translate(-50px, 50px);
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-btn a:hover .pbmit-button-icon-wrapper::before{
+	transform: scale(1) translate(-2px, 0px);
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-btn a .pbmit-button-icon{
+	display: inline-block;
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-btn a:hover .pbmit-button-icon{
+	transform: scale(0.26) translate(45px, -50px);
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-btn a:hover{
+	border-color: var(--pbmit-xcare-blackish-color);
+	background-color: var(--pbmit-xcare-blackish-color);
+	color: var(--pbmit-xcare-white-color);
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-ptable-col .pbmit-pricing-table-box:hover{
+	transform: translateY(-5px);
+}
+.pbmit-elementor-bg-color-white .pbminfotech-ele-ptable-style-1 .pbmit-pricing-table-box{
+	background-color: var(--pbmit-xcare-light-bg-color);
+}
+/* For 5 column */
+.pbminfotech-ele-ptable-style-1 .col-md-20percent .pbmit-pricing-table-box{
+	padding: 30px 25px;
+}
+.pbminfotech-ele-ptable-style-1 .col-md-20percent .pbminfotech-ptable-heading{
+	font-size: 23px;
+	line-height: 28px;
+}
+.pbminfotech-ele-ptable-style-1 .col-md-20percent .pbminfotech-ptable-symbol{
+	font-size: 26px;
+	line-height: 30px;
+}
+.pbminfotech-ele-ptable-style-1 .col-md-20percent .pbminfotech-ptable-price{
+	font-size: 40px;
+	line-height: 50px;
+}
+.pbminfotech-ele-ptable-style-1 .col-md-20percent .pbminfotech-ptable-frequency{
+	font-size: 12px;
+	line-height: 22px;
+}
+.pbminfotech-ele-ptable-style-1 .col-md-20percent .pbmit-ptable-line{
+	margin-bottom: 10px;
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-ptable-icon{
+	margin-right: 15px;
+}
+.rtl .pbminfotech-ele-ptable-style-1 .pbmit-ptable-icon{
+	margin: 0 0 0 15px;
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-ptable-icon-type-text{
+	font-size: 30px;
+	line-height: 30px;
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-icon-type-icon i{
+	font-size: 50px;
+	line-height: 50px;
+	color: var(--pbmit-xcare-blackish-color);
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-ptable-svg-wrapper svg{
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+}
+.rtl .pbminfotech-ele-ptable-style-1 .pbmit-ptable-svg-wrapper svg{
+	margin: 0 0 0 20px;
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-ptable-icon-type-image{
+	width: 50px;
+	height: 50px;
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-pricing-table-featured-col .pbmit-feature-wrap{
+	position: absolute;
+	top: 40px;
+	right: 0;
+	text-transform: uppercase;
+}
+.rtl .pbminfotech-ele-ptable-style-1 .pbmit-pricing-table-featured-col .pbmit-feature-wrap{
+	left: 0;
+	right: inherit;
+}
+.pbminfotech-ele-ptable-style-1 .pbmit-pricing-table-featured-col .pbmit-feature-wrap .pbmit-ptablebox-featured-w{
+	padding: 0 13px;
+	font-size: 12px;
+	line-height: 25px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #fff;
+	background: red;
+	position: relative;
+}
+@media(max-width: 1200px){
+	.pbminfotech-ele-ptable-style-1 .col-md-20percent{
+		flex: 0 0 33.333%;
+		max-width: 33.333%;
+		margin-bottom: 30px;
+	}
+}
+@media(max-width: 1024px){
+	.pbminfotech-ele-ptable-style-1 .col-md-3{
+		flex: 0 0 50%;
+		max-width: 50%;
+		margin-bottom: 30px;
+	}
+}
+@media(max-width: 991px){
+	.pbminfotech-ele-pricing-table .pbmit-ptable-col{
+		margin-bottom: 30px;
+	}
+}
+@media(max-width: 767px){
+	.pbminfotech-ele-ptable-style-1 .col-md-20percent,
+	.pbminfotech-ele-ptable-style-1 .col-md-3{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+}
+@media(min-width: 991px) and (max-width: 1200px){
+	.pbminfotech-ele-ptable-style-1 .pbmit-pricing-table-box{
+		padding: 40px 30px;
+	}
+}
+@media(max-width: 575px){
+	.pbminfotech-ele-ptable-style-1 .pbmit-pricing-table-box{
+		padding: 40px 30px;
+	}
+	.pbminfotech-ele-ptable-style-1 .pbminfotech-ptable-heading{
+		font-size: 22px;
+		line-height: 28px;
+	}
+	.pbminfotech-ele-ptable-style-1 .pbminfotech-ptable-price{
+		font-size: 50px;
+		line-height: 50px;
+	}
+	.pbminfotech-ele-ptable-style-1 .pbminfotech-ptable-symbol{
+		font-size: 27px;
+		line-height: 28px;
+	}
+	.pbminfotech-ele-ptable-style-1 .pbmit-head-wrap{
+		padding-bottom: 18px;
+	}
+	.pbminfotech-ele-ptable-style-1 .pbmit-ptable-inner{
+		padding: 25px 0 15px;
+	}
+}

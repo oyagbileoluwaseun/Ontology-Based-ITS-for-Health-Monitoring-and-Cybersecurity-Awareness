@@ -1,0 +1,98 @@
+/* --------------------------------------
+ * Elementor - pbmit_imgselect
+ * ---------------------------------------*/
+
+.pbmit-imgselect-thumbs input {
+	display: none;
+}
+.pbmit-imgselect-thumbs label {
+	display: block;
+	margin: 5px;
+	position: relative;
+	float: left;
+}
+.pbmit-imgselect-thumb{
+	cursor: pointer;
+}
+.elementor-panel .pbmit-imgselect-thumb img {
+	padding: 3px;
+	border: 3px solid #eee;
+}
+.elementor-panel .pbmit-imgselect-thumb i {
+	background-color: #d30c5c;
+	position: absolute;
+	right: 3px;
+	bottom: 3px;
+	padding: 5px;
+	color: white;
+	display: none;
+	font-size: 8px;
+}
+.elementor-panel .pbmit-imgselect-thumb input:checked ~ img {
+	border-color: #d30c5c;
+}
+.elementor-panel .pbmit-imgselect-thumb input:checked ~ i {
+	display: block;
+}
+.elementor-panel .pbmit-imgselect-thumb input:checked ~ img:before {
+	content: "";
+	position: absolute;
+	top: 100px;
+	left:100px;
+	height: 100px;
+	width: 100px;
+	background-color: red;
+
+}
+.elementor-panel .elementor-control-field-description sup{
+	vertical-align: super;
+}
+.elementor-panel .elementor-control-field-description sub{
+	vertical-align: sub;
+}
+.elementor-panel .elementor-control-input-wrapper .elementor-control-unit-2[type="number"]{
+	width: 90px;
+}
+
+/* Elementor editor branding with Global Color */
+#elementor-panel-category-xcare_category .elementor-panel .elementor-element:hover .icon,
+#elementor-panel-category-xcare_category .elementor-panel .elementor-element:hover .title {
+	color: green;
+}
+/* Elementor icon picker icon size */
+.elementor-icons-manager__tab__item__icon.pbmit-xcare-icon:before{
+	font-size: 35px;
+}
+.elementor-panel .pbmit-lottie-description h3{
+	font-size: 18px;
+}
+.elementor-panel .pbmit-lottie-description ol {
+	padding-left: 20px;
+}
+.elementor-panel .pbmit-lottie-description ol li {
+	padding-bottom: 5px;
+	list-style: dot;
+	padding-top: 5px;
+}
+.elementor-control.elementor-control-view-type .pbmit-imgselect-thumbs label{
+	margin: 2px;
+}
+.elementor-control.elementor-control-view-type .pbmit-imgselect-thumb{
+	width: 82px !important;
+}
+.elementor-control.elementor-control-row_col_options_heading h3,
+.elementor-control.elementor-control-data_options_heading h3 {
+	font-size: 16px;
+	color: black;
+}
+textarea.elementor-control-tag-area{
+	height: 3em;
+	padding-right: 15px;
+}
+.elementor-control-desc textarea.elementor-control-tag-area{
+	height: 6em;
+}
+.pbmit-tab-small-logo {
+	margin-bottom: -3px;
+	margin-right: 3px;
+}
